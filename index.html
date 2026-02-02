@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Team Inclan Case Checklist & Expectation Guide 2026</title>
+    <style>
+        /* iOS-style Typography and Reset */
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1c1c1e;
+            --link-color: #00008B; /* Dark Dark Blue */
+            --critical-color: #8B0000; /* Dark Red */
+            --highlight-color: #fff685; /* Soft Yellow */
+            --meta-color: #8e8e93;
+            --border-color: #e5e5ea;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px 16px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Headers */
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        h2, h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            letter-spacing: -0.3px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+        }
+
+        /* Summary Styling */
+        .summary {
+            font-style: italic;
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 25px;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+        }
+
+        /* Table of Contents Styling */
+        .toc-container {
+            background-color: #f2f2f7; /* iOS grouped background color */
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .toc-title {
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: var(--meta-color);
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-item {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        /* Link Styling */
+        a.tag-link {
+            color: var(--link-color);
+            text-decoration: none;
+            border-bottom: 2px solid var(--link-color); /* Underscore style */
+            font-weight: 700;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        a.tag-link:active {
+            opacity: 0.6;
+        }
+
+        /* Email Metadata Styling */
+        .email-header {
+            font-family: "Menlo", "Courier New", monospace;
+            font-size: 11px;
+            color: var(--meta-color);
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            margin: 20px 0;
+            white-space: pre-wrap;
+        }
+
+        /* Content Paragraphs */
+        .content-section {
+            margin-bottom: 15px;
+            padding: 8px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+
+        /* Critical Text Styling */
+        .critical-text {
+            color: var(--critical-color);
+            font-weight: 800;
+        }
+
+        /* Animation for Target Highlight */
+        @keyframes highlightFade {
+            0% { background-color: var(--highlight-color); }
+            10% { background-color: var(--highlight-color); }
+            100% { background-color: transparent; }
+        }
+
+        /* When an element is targeted via ID anchor */
+        :target {
+            animation: highlightFade 2.5s ease-out;
+            scroll-margin-top: 20px; /* Offset for sticky headers if any, or just breathing room */
+        }
+
+        /* Utility */
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border-color);
+            margin: 30px 0;
+        }
+
+        .indent-1 { margin-left: 10px; }
+        .indent-2 { margin-left: 20px; }
+        .indent-3 { margin-left: 30px; }
+    </style>
+</head>
+<body>
+
+    <h1>Team Inclan Operational Guide 2026</h1>
+
+    <div class="summary">
+        This document is a two-part internal operational guide for Team Inclan (Clemente Inclan’s team: primary attorneys, paralegals, legal assistants, runners, and junior attorneys) that sets concrete timelines, task ownership, and communication standards for defending cases in 2026. Email (1) is a “case checklist addendum” that converts the broader Expectation Guide into a day-by-day/phase-by-phase production schedule (first 10 days, 15–30 days, 15–60 days, 60–90 days, and post–90 days), assigning specific deliverables to the Primary attorney, paralegal, and legal assistant, with frequent hard deadlines (e.g., 24 hours, 5 days, 10 days, 30 days, day 65/75, 90 days). Email (2) is the longer Expectation Guide that sets the “how” (service philosophy, communication norms, Filevine uniformity, reporting cadence, discovery/records/chrono standards, trial-prep ramp) and reinforces deadline discipline.
+    </div>
+
+    <div class="toc-container">
+        <div class="toc-title">Index / Table of Contents</div>
+        <ul class="toc-list">
+            <li class="toc-item"><a href="#1." class="tag-link">(1.)</a> Email cover/forward: “TEAM INCLAN CASE CHECKLIST 2026 ADDENDUM TO EXPECTATION GUIDE”</li>
+            <li class="toc-item"><a href="#1.1." class="tag-link">(1.1.)</a> Timeline – First 10 days from assignment</li>
+            <li class="toc-item indent-1"><a href="#1.1.1." class="tag-link">(1.1.1.)</a> Conflict check within 24 hours</li>
+            <li class="toc-item indent-1"><a href="#1.1.2." class="tag-link">(1.1.2.)</a> Call insured to set initial meeting within 24–48 hours</li>
+            <li class="toc-item indent-1"><a href="#1.1.3." class="tag-link">(1.1.3.)</a> Initial meeting with insured + adjuster within 5 days</li>
+            <li class="toc-item indent-1"><a href="#1.1.4." class="tag-link">(1.1.4.)</a> Notice of Appearance considered within first 24 hours</li>
+            <li class="toc-item indent-1"><a href="#1.1.5." class="tag-link">(1.1.5.)</a> Send insured letter confirming representation</li>
+            <li class="toc-item indent-1"><a href="#1.1.6." class="tag-link">(1.1.6.)</a> GL/Trucking claims file: Primary attorney summarizes</li>
+            <li class="toc-item indent-1"><a href="#1.1.7." class="tag-link">(1.1.7.)</a> Trucking: assess whether ELD/black box/mapping/e-logs download exists ASAP</li>
+            <li class="toc-item indent-1"><a href="#1.1.8." class="tag-link">(1.1.8.)</a> Legal Assistant within 24 hours: file setup + docketing</li>
+            <li class="toc-item indent-1"><a href="#1.1.9." class="tag-link">(1.1.9.)</a> Paralegal within first 72 hours: file build-out + bates + initial discovery</li>
+            <li class="toc-item indent-2"><a href="#1.1.9.5.2.1." class="tag-link">(1.1.9.5.2.1.)</a> LTC facilities: specific document categories</li>
+            <li class="toc-item indent-2"><a href="#1.1.9.5.2.2." class="tag-link">(1.1.9.5.2.2.)</a> Trucking cases: categories to request</li>
+            <li class="toc-item indent-1"><a href="#1.1.10." class="tag-link">(1.1.10.)</a> Within 5 days: paralegal sends notices of subpoenas</li>
+            <li class="toc-item indent-1"><a href="#1.1.11." class="tag-link">(1.1.11.)</a> Initial Disclosures: out within 10 days</li>
+            <li class="toc-item indent-1"><a href="#1.1.12." class="tag-link">(1.1.12.)</a> Initial game plan letter: within 10 days</li>
+            <li class="toc-item indent-1"><a href="#1.1.13." class="tag-link">(1.1.13.)</a> Paralegal social media search: within first 15 days</li>
+            <li class="toc-item indent-1"><a href="#1.1.14." class="tag-link">(1.1.14.)</a> Nursing Home/ALF/Client Hospital records: in office within 10 days</li>
+            <li class="toc-item indent-1"><a href="#1.1.15." class="tag-link">(1.1.15.)</a> Spoliation letters</li>
+            
+            <li class="toc-item"><a href="#1.2." class="tag-link">(1.2.)</a> Timeline within 15–30 days from receipt</li>
+            <li class="toc-item indent-1"><a href="#1.2.1." class="tag-link">(1.2.1.)</a> Deposition + USS: set within 30 days</li>
+            <li class="toc-item indent-1"><a href="#1.2.2." class="tag-link">(1.2.2.)</a> Responsive pleading planning: 10 days before due</li>
+            <li class="toc-item indent-1"><a href="#1.2.3." class="tag-link">(1.2.3.)</a> Unresponsive insured</li>
+            <li class="toc-item indent-1"><a href="#1.2.4." class="tag-link">(1.2.4.)</a> Expert retention discussion</li>
+
+            <li class="toc-item"><a href="#1.3." class="tag-link">(1.3.)</a> Timeline 15–60 days from receipt</li>
+            <li class="toc-item indent-1"><a href="#1.3.1." class="tag-link">(1.3.1.)</a> Primary reviews medical records within 30 days</li>
+            <li class="toc-item indent-1"><a href="#1.3.2." class="tag-link">(1.3.2.)</a> Witness/staff interviews</li>
+            <li class="toc-item indent-1"><a href="#1.3.6." class="tag-link">(1.3.6.)</a> Antecedent records effort tracking within 60 days</li>
+            <li class="toc-item indent-1"><a href="#1.3.7." class="tag-link">(1.3.7.)</a> Witness list</li>
+
+            <li class="toc-item"><a href="#1.4." class="tag-link">(1.4.)</a> Timeline after 60–90 days</li>
+            <li class="toc-item indent-1"><a href="#1.4.1." class="tag-link">(1.4.1.)</a> Initial evaluation: day 75 (CJI copy day 65)</li>
+            <li class="toc-item indent-1"><a href="#1.4.2." class="tag-link">(1.4.2.)</a> Background searches</li>
+            <li class="toc-item indent-1"><a href="#1.4.3." class="tag-link">(1.4.3.)</a> Working “Case To Do List”</li>
+            <li class="toc-item indent-1"><a href="#1.4.6." class="tag-link">(1.4.6.)</a> Gap analysis report: within 90 days</li>
+
+            <li class="toc-item"><a href="#1.5." class="tag-link">(1.5.)</a> Timeline after 90 days</li>
+            <li class="toc-item indent-1"><a href="#1.5.1.5." class="tag-link">(1.5.1.5.)</a> Non-party records management</li>
+            <li class="toc-item indent-1"><a href="#1.5.1.6." class="tag-link">(1.5.1.6.)</a> Trial Order triggers</li>
+            <li class="toc-item indent-1"><a href="#1.5.1.8." class="tag-link">(1.5.1.8.)</a> Expert Witness Disclosure (EWD) drafting</li>
+            <li class="toc-item indent-1"><a href="#1.5.1.10." class="tag-link">(1.5.1.10.)</a> 120 days before trial: audit</li>
+            <li class="toc-item indent-1"><a href="#1.5.1.11." class="tag-link">(1.5.1.11.)</a> 90 days before trial: notebooks + scheduling + MIL</li>
+            <li class="toc-item indent-1"><a href="#1.5.1.12." class="tag-link">(1.5.1.12.)</a> 45 days before trial: demos + depos + jury instructions</li>
+            <li class="toc-item indent-1"><a href="#1.5.1.13." class="tag-link">(1.5.1.13.)</a> Two weeks before trial: exhibits + notebooks + summaries</li>
+
+            <li class="toc-item"><a href="#2." class="tag-link">(2.)</a> Email cover/forward: “TEAM INCLAN – EXPECTATION GUIDE 2026”</li>
+            <li class="toc-item indent-1"><a href="#2.1." class="tag-link">(2.1.)</a> General expectations</li>
+            <li class="toc-item indent-1"><a href="#2.2." class="tag-link">(2.2.)</a> Areas of practice generally</li>
+            <li class="toc-item indent-1"><a href="#2.2.1." class="tag-link">(2.2.1.)</a> Conflict checks</li>
+            <li class="toc-item indent-1"><a href="#2.2.2." class="tag-link">(2.2.2.)</a> Meeting with insured/insurer</li>
+            <li class="toc-item indent-1"><a href="#2.2.3." class="tag-link">(2.2.3.)</a> Reporting/communication expectations</li>
+            <li class="toc-item indent-2"><a href="#2.2.3.1.1." class="tag-link">(2.2.3.1.1.)</a> 24-hour rule for client inquiries</li>
+            <li class="toc-item indent-1"><a href="#2.2.4." class="tag-link">(2.2.4.)</a> Non-party records escalation</li>
+            <li class="toc-item indent-1"><a href="#2.2.5." class="tag-link">(2.2.5.)</a> Chronologies</li>
+            <li class="toc-item indent-1"><a href="#2.2.8." class="tag-link">(2.2.8.)</a> Responses to Plaintiff discovery</li>
+            <li class="toc-item indent-1"><a href="#2.2.9." class="tag-link">(2.2.9.)</a> Experts</li>
+            <li class="toc-item indent-1"><a href="#2.2.10." class="tag-link">(2.2.10.)</a> Depositions generally</li>
+            <li class="toc-item indent-1"><a href="#2.2.33." class="tag-link">(2.2.33.)</a> Closing out files</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="content-section">
+        <h3>3) Critical “do not forget” lines</h3>
+        
+        <p class="critical-text"><a href="#1.1.1." class="tag-link">(1.1.1.)</a> - Conflict check must happen within 24 hours of the assigning email being forwarded.</p>
+        <p class="critical-text"><a href="#1.1.3." class="tag-link">(1.1.3.)</a> - Initial meeting with insured and adjuster must take place within 5 days of case acceptance.</p>
+        <p class="critical-text"><a href="#1.1.5." class="tag-link">(1.1.5.)</a> - Send insured letter confirming representation + attach statement of insured’s rights; bar requires it be in file (audit existing cases).</p>
+        <p class="critical-text"><a href="#1.1.6." class="tag-link">(1.1.6.)</a> - Claims file must be summarized and key-issues memo completed within 5 business days (GL/trucking).</p>
+        <p class="critical-text"><a href="#1.1.11." class="tag-link">(1.1.11.)</a> - Initial Disclosures must go out within 10 days of acceptance (in-suit cases).</p>
+        <p class="critical-text"><a href="#1.1.12." class="tag-link">(1.1.12.)</a> - Initial game plan letter must be drafted within 10 days so it can go out by day 15 (or sooner).</p>
+        <p class="critical-text"><a href="#1.1.14." class="tag-link">(1.1.14.)</a> - Nursing Home/ALF/Client Hospital records must be in office within 10 days of assignment.</p>
+        <p class="critical-text"><a href="#1.1.15.1." class="tag-link">(1.1.15.1.)</a> - Spoliation letters to Plaintiff + obtain black box/dash cam info within 10 days of assignment.</p>
+        <p class="critical-text"><a href="#1.2.1." class="tag-link">(1.2.1.)</a> - Plaintiff deposition and USS must be set within 30 days of acceptance.</p>
+        <p class="critical-text"><a href="#1.4.1." class="tag-link">(1.4.1.)</a> - Initial evaluation due to client by day 75; CJI needs a copy by day 65.</p>
+        <p class="critical-text"><a href="#1.4.6." class="tag-link">(1.4.6.)</a> - Gap analysis report must be completed within 90 days of the receipt of the case.</p>
+        <p class="critical-text"><a href="#1.5.1.6.8." class="tag-link">(1.5.1.6.8.)</a> - New records received must be sent to experts within 7 days of receipt (post–trial order).</p>
+        <p class="critical-text"><a href="#2.2.3.1.1." class="tag-link">(2.2.3.1.1.)</a> - 24-hour rule: respond to client inquiries within 24 hours (non-scheduling).</p>
+        <p class="critical-text"><a href="#2.2.16." class="tag-link">(2.2.16.)</a> - Filed pleadings must be moved into Filevine within 24 hours.</p>
+        <p class="critical-text"><a href="#2.2.17." class="tag-link">(2.2.17.)</a> - Substantive call/meeting memo must be created within 24 hours.</p>
+        
+        <p><em>NOTE: ambiguity - (1.1.15.) - “send our own spoliation letter OUR the client” appears to contain a typo (“OUR” vs “to/for”) but the operational requirement is clear: send a firm spoliation letter to the client in addition to responding to OC’s spoliation demands.</em></p>
+    </div>
+
+    <hr>
+
+    <div class="content-section" id="1.">
+        <div class="email-header">"Fw: TEAM INCLAN CASE CHECKLIST 2026 ADDENDUM TO EXPECTATION GUIDE a
+Karissa Rathbun <karissarathbun@yahoo.com> To: rappsongs@gmail.com <rappsongs@gmail.com>
+Email 1 of 2 below.
+Karissa Rathbun Meehan
+904-238-5855 karissarathbun@yahoo.com
+Sun, Feb 1 at 5:41 PM
+----- Forwarded Message -----
+From: Karissa Meehan <kmeehan@saalfieldlaw.com>
+... [Headers truncated for brevity but data preserved in context]
+From: Clemente Inclan <cinclan@saalfieldlaw.com>
+Subject: RE: TEAM INCLAN CASE CHECKLIST 2026 ADDENDUM TO EXPECTATION GUIDE a</div>
+
+        <p>Hello everyone,</p>
+        <p>Below I have created a checklist of how and when things should be completed in our cases consistent with the Expectation Guide I sent earlier today . The Expectation Guide notes when things should be completed but it also incorporates theory and philosophy. My hope in creating a checklist is to have a short to the point checklist that we can easily turn to. We are constantly talking about strategies and deadlines in our cases but my hope is that by creating a checklist we can all be on the same page all the time as we move forward in 2026. The goal here is to provide outstanding service to our clients.</p>
+
+        <div class="content-section" id="1.1.">
+            <strong>(1.1.) Timeline – The First 10 days from the day of assignment</strong> – We need to get on the right foot immediately once a new case comes in. We only get one or two new cases a month: if that. But when they do come in, we need to make them a priority in so far as to get them moving in the right direction. As noted in the Team Inclan Expectation Guide; we need to prepare and submit to our clients a very good evaluation of a new case within 90 days of acceptance of an assignment: if not sooner. I believe that industry standard is 90 days from assignment to an initial comprehensive evaluation. We should aspire to have this even quicker: 60 to 90 days. It is the Primary lawyer in the case and the paralegal who bear the responsibility for this to happen. This is the first step towards excellence in the performance of our duties. In this timeline I recognize that I am front loading a lot to be done within the first 90 days of receiving a case and doing some of this may be difficult when trying to complete tasks on our older cases and or preparing or going to trial. This is especially difficult when the things we are trying to finish on our older cases are already overdue. We need to make a big push in the next 30 to 60 days to get everything caught up in cases. This may take some sacrifice but once we are caught up then it just be a matter of staying ahead. Getting things caught up is a necessity.
+        </div>
+        <p>When a new case starts on the right track then there are less emergencies down the road. timelines and expectations noted herein and on the Team Inclan Expectation Guide are things that are industry standards and things I see other firms do. When I see other firms do these things, Again the I know they are on top of their cases. Most importantly, the adjuster sees that we are on top of things.</p>
+        <p>From time to time we do receive GL and trucking cases that are not in litigation. We should tackle those matters with urgency as well and generally take the same timeline approaches below as relevant or as otherwise take action as the pre-lit cases require:</p>
+
+        <div class="content-section critical-text" id="1.1.1.">
+            (1.1.1.) 1. Conflict check must happen within 24 hours of when an assigning email is forwarded to the legal assistants.
+        </div>
+
+        <div class="content-section" id="1.1.2.">
+            (1.1.2.) 2. Initial meeting with insured: call with insured to set up meeting should take place within 24 to 48 hours from case acceptance. This should be coordinated between the Primary attorney and me. The Primary attorney in the case is the attorney who I assign the matter to. This attorney is responsible for managing the day to day operations of the case.
+        </div>
+
+        <div class="content-section critical-text" id="1.1.3.">
+            (1.1.3.) 3. Initial meeting with insured and adjuster must take place within 5 days of case acceptance.
+        </div>
+
+        <div class="content-section" id="1.1.4.">
+            (1.1.4.) 4. Notice of Appearance must be considered between the Primary attorney on the case and me within the first 24 hours or depending on the needs of the case. It is the responsibility of the Primary attorney to keep track of whether an NOA has been filed or not.
+        </div>
+
+        <div class="content-section critical-text" id="1.1.5.">
+            (1.1.5.) 5. After initial meeting with insured – We need to send the insured a letter on letterhead confirming our representation, our role and attach the statement of insured’s right. The statement of insured’s rights is something that I forget to do at times and it is important that we provide same to the insured as per the bar guidelines. I think these statements confuse insureds and scare them as to what is going on because the statement says to the insured that they can get their own attorney. Insured often ask me why are you sending me something telling me to get an attorney when “I thought you are my attorney”. I have had multiple insureds ask me what is going on when they get these if I don’t preemptively let them know what it is. I always work really hard trying to establish trust with the insureds during our first meeting and of course throughout the pendency of the case. Meaning I want them to know that we are here for them and that they not the insurance company is our client. I spend a lot of time in the first meeting with insureds and later through the pendency of the case reminding them that while we are here for them, they still can hire their own attorney. Please note that the bar requires these letters to be in our file.
+        </div>
+
+        <p>That is why it is important that when we meet with the insured initially we explain to them that we will be sending them a letter confirming our involvement and that said letter will be coming with the statement of insured’s right and what it means. It is important to preemptively allay any concerns that these statements may cause an insured.</p>
+        <p>I would ask that the Primary attorney and the legal assistant in each case currently pending, please audit your file and determine whether the insured has been sent the statement of the insured’s rights. If not, let me know and I will assist in drafting a letter this week.</p>
+
+        <div class="content-section critical-text" id="1.1.6.">
+            (1.1.6.) 6. In trucking and GL cases there is usually a claims file. The claims file must be summarized for key aspects within 5 business days and memo created identifying key issues. This is to be performed by the Primary attorney to the case.
+        </div>
+
+        <div class="content-section" id="1.1.6.1.">
+            (1.1.6.1.) a. Memo should have a section of key things that we need to follow up with.
+        </div>
+        <div class="content-section" id="1.1.6.2.">
+            (1.1.6.2.) b. Memo should have an analysis of liability, causation and damages based only on the information in the claims file.
+        </div>
+        <div class="content-section" id="1.1.6.3.">
+            (1.1.6.3.) c. Paralegal and Primary lawyer must confirm that we’ve received claims file in GL and trucking cases within 5 days of accepting assignment of the case.
+        </div>
+
+        <div class="content-section" id="1.1.7.">
+            (1.1.7.) 7. Trucking cases – as soon as possible there must be an assessment of whether there has been a download of ELD, black box, mapping, electronic logs. These must be obtained immediately or at a minimum there must be discussion of same within 5 days from acceptance of the case. With some cases this must be done quicker. The Primary attorney and paralegal must work together with this and discuss with me within this timeframe and the Primary attorney shall create a memo to the file concerning this topic and what if anything needs to be followed up with.
+        </div>
+
+        <div class="content-section" id="1.1.8.">
+            (1.1.8.) 8. Legal Assistant – within 24 hours of receipt of the case must:
+        </div>
+        <div class="content-section" id="1.1.8.1.">
+            (1.1.8.1.) a. Set up file in Filevine putting things generally in Filevine.
+        </div>
+        <div class="content-section" id="1.1.8.2.">
+            (1.1.8.2.) b. Calendar all important dates and email the Primary lawyer and me about any upcoming deadlines. The legal assistant must continue to remind the Primary lawyer and me about these deadlines until they are completed or addressed by the Primary lawyer.
+        </div>
+        <div class="content-section" id="1.1.8.3.">
+            (1.1.8.3.) c. Prepare Notice of appearance;
+        </div>
+        <div class="content-section" id="1.1.8.4.">
+            (1.1.8.4.) d. Prepare standard letter to send to OC for me or Primary attorney to sign if I am unable to do so.
+        </div>
+        <div class="content-section" id="1.1.8.4.1.">
+            (1.1.8.4.1.) i. This letter must ask for Plaintiff’s depo.
+        </div>
+        <div class="content-section" id="1.1.8.4.2.">
+            (1.1.8.4.2.) ii. We need to make sure that we have a standard letter that we all use.
+        </div>
+        <div class="content-section" id="1.1.8.5.">
+            (1.1.8.5.) e. Check the docket for this case to see what has already been filed in the case and if there are prior pleadings, pull them, copy them to an email, send to the entire team and add to filevine.
+        </div>
+
+        <div class="content-section" id="1.1.9.">
+            (1.1.9.) 9. Paralegal - -within first 72 hours of receiving the case must:
+        </div>
+        <div class="content-section" id="1.1.9.1.">
+            (1.1.9.1.) a. Start O & I and place documents there; claims file needs to be broken down and individual documents placed therein.
+        </div>
+        <div class="content-section" id="1.1.9.2.">
+            (1.1.9.2.) b. Place client documentation in client docs; claims file need to be broken down and individual documents place herein.
+        </div>
+        <div class="content-section" id="1.1.9.3.">
+            (1.1.9.3.) c. Bates stamp records.
+        </div>
+        <div class="content-section" id="1.1.9.4.">
+            (1.1.9.4.) d. Draft initial discovery to Plaintiff for Primary attorney to review. Paralegal should consider any unique issues about the case that we may want to amend or supplement our standard discovery. Primary lawyer should then ensure we are properly focusing the discovery based on the particulars of the case. These need to be ready to go as soon as we serve out Initial Disclosures.
+        </div>
+        <div class="content-section" id="1.1.9.5.">
+            (1.1.9.5.) e. Draft letter to client for the Primary attorney to review asking client for documents we are going to need to respond to discovery.
+        </div>
+        <div class="content-section" id="1.1.9.5.1.">
+            (1.1.9.5.1.) i. We need to make sure that we ask for the key documents that need to be produced for our review. We need to make sure that what is asked for in this initial letter are the most important documents.
+        </div>
+        <div class="content-section" id="1.1.9.5.2.">
+            (1.1.9.5.2.) ii. Send letter along with the actual discovery requests
+        </div>
+
+        <div class="content-section" id="1.1.9.5.2.1.">
+            (1.1.9.5.2.1.) 1. For example, things that we must obtain from LTC facilities:
+        </div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.1.">(1.1.9.5.2.1.1.) a. Plaintiff’s medical records including MAR;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.2.">(1.1.9.5.2.1.2.) b. Plaintiff’s billing and administrative file;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.3.">(1.1.9.5.2.1.3.) c. Make sure to ask if they have PT and OT records and or outside records at the facility;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.4.">(1.1.9.5.2.1.4.) d. Policy and procedure index – and or any applicable policies;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.5.">(1.1.9.5.2.1.5.) e. Incident reports,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.6.">(1.1.9.5.2.1.6.) f. Incident report log,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.7.">(1.1.9.5.2.1.7.) g. Surveys for AHCA for the prior two years;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.8.">(1.1.9.5.2.1.8.) h. 24 hour reports;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.9.">(1.1.9.5.2.1.9.) i. CNA assignment sheets around the relevant time;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.10.">(1.1.9.5.2.1.10.) j. Sign in records for the relevant time frame;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.11.">(1.1.9.5.2.1.11.) k. Nursing sign-in sheets;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.12.">(1.1.9.5.2.1.12.) l. Copy of floor plan;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.13.">(1.1.9.5.2.1.13.) m. Copy of license at the facility during admission;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.14.">(1.1.9.5.2.1.14.) n. Any agreement that the facility has with a company regarding management of the facility;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.15.">(1.1.9.5.2.1.15.) o. Names of key related people at the facility: administrator, DON.</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.16.">(1.1.9.5.2.1.16.) p. Organization chart;</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.1.17.">(1.1.9.5.2.1.17.) q. If there is a key caregiver that was involved with a particular incident ask for her personnel file.</div>
+
+        <div class="content-section" id="1.1.9.5.2.2.">
+            (1.1.9.5.2.2.) 2. Trucking cases –
+        </div>
+        <div class="content-section indent-1" id="1.1.9.5.2.2.1.">(1.1.9.5.2.2.1.) a. The electronic records,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.2.2.">(1.1.9.5.2.2.2.) b. black box,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.2.3.">(1.1.9.5.2.2.3.) c. dash cam,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.2.4.">(1.1.9.5.2.2.4.) d. driver logs,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.2.5.">(1.1.9.5.2.2.5.) e. documents related to the lode in question,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.2.6.">(1.1.9.5.2.2.6.) f. communications about the crash,</div>
+        <div class="content-section indent-1" id="1.1.9.5.2.2.7.">(1.1.9.5.2.2.7.) g. the driver employee file.</div>
+
+        <div class="content-section" id="1.1.9.5.2.3.">
+            (1.1.9.5.2.3.) 3. GL cases because every business is different this is case specific.
+        </div>
+        <div class="content-section" id="1.1.9.5.2.4.">
+            (1.1.9.5.2.4.) 4. MedMal – is standard materials in the NOI presuit request by Plaintiff’s counsel
+        </div>
+
+        <div class="content-section" id="1.1.9.5.3.">
+            (1.1.9.5.3.) iii. Obtaining Plaintiff’s records from our own client – this has been an issue like I have never seen before. We ask for records via emails, speak with the provider contact and yet we don’t obtain the records in a timely manner. In some cases presuit ends and we still don’t have the records. We need to figure out ways to change this. If we don’t obtain the full records for the Plaintiff in 5 days, then the primary lawyer must get involved in the case to come up with a strategy for obtaining the records within 10 days. If we don’t have the complete records of the patient within 10 days of obtaining the case assignment please let me know and what efforts have been taken to obtain it.
+        </div>
+        <div class="content-section" id="1.1.9.5.4.">
+            (1.1.9.5.4.) iv. Administrative file – Likewise we are having trouble getting the administrative file which would include the admission agreement and possible arbitration agreement. Same applies to this with regards to timing.
+        </div>
+        <div class="content-section" id="1.1.9.5.5.">
+            (1.1.9.5.5.) v. Other relevant records – We are having problems of course in obtaining other records that are relevant to the case like, incident reports, staffing sheets for the days in question, personnel files etc. If the paralegal does not receive these and other key records within 14 days of assignment then the primary lawyer assigned to the case needs to get involved in putting together a solution. If by day 20 we still don’t have then please let me know.
+        </div>
+        <div class="content-section" id="1.1.9.5.6.">
+            (1.1.9.5.6.) vi. The Primary lawyer on the case must actively participate and collaborate in what is asked for.
+        </div>
+        <div class="content-section" id="1.1.9.5.7.">
+            (1.1.9.5.7.) vii. In the letter ask for a time to meet either in person or by zoom within 2 weeks of the letter being sent to go over the documents.
+        </div>
+
+        <div class="content-section" id="1.1.10.">
+            (1.1.10.) 10. Within 5 days of receipt of the case assignment, the paralegal should send out notice of subpoenas for non -party records that we are aware of.
+        </div>
+        <div class="content-section" id="1.1.10.1.">
+            (1.1.10.1.) a. If we presuited the case and obtained records via authorizations and thus know they are complete then a subpoena requesting those records is not needed again. Assuming we sent the records to other parties in presuit, the primary attorney needs to send a letter to other parties agreeing to use these records in-suit without otherwise waiving the presuit privilege that anything in presuit cannot be used in suit.
+        </div>
+
+        <div class="content-section critical-text" id="1.1.11.">
+            (1.1.11.) 11. Initial Disclosure – they should go out within 10 days of acceptance of assignment for insuit cases. In medmal and LTC cases we already went through presuit so we should have a good amount of information. Paralegal and Primary attorney need to prepare a draft initial disclosure towards the end of presuit. At that point we should be knowledgeable of the case and the case is paramount in our minds so preparing the initial disclosures should be very quick. This way when and if the suit is filed 3 months later and the case has become cold to us, the disclosure is already done.
+        </div>
+        <div class="content-section" id="1.1.11.1.">
+            (1.1.11.1.) a. The GL and trucking cases usually come with claims files so there should be some information to go on there.
+        </div>
+
+        <div class="content-section critical-text" id="1.1.12.">
+            (1.1.12.) 12. Initial game plan letter to client - Within10 days of receipt of the assignment, we need to draft a letter to the insured and claims handler telling them what we have learned since assignment and our game plan going forward. This letter should be short – maybe one page. This is to be drafted by the Primary attorney for my review so I can get out by day 15th day if not sooner.
+        </div>
+        <div class="content-section" id="1.1.12.1.">
+            (1.1.12.1.) a. Surveillance – consider with Claims person whether we want surveillance.
+        </div>
+
+        <div class="content-section" id="1.1.13.">
+            (1.1.13.) 13. Paralegal – should conduct a social media search and summarize into letter format what the social media search yielded for the Primary attorney to review and send to the client. I do not need to review this letter before it goes out. This should be prepared in the first 15 days from receipt of the case.
+        </div>
+
+        <div class="content-section critical-text" id="1.1.14.">
+            (1.1.14.) 14. Nursing Home, ALF and Client Hospital records – We must have these in our office within 10 days of assignment of case.
+        </div>
+
+        <div class="content-section" id="1.1.15.">
+            (1.1.15.) 15. Spoliations letters – We need to obtain any spoliations letters that OC gave to our client and write a responsive letter as soon as possible that objects to unreasonable requests. We need to send our own spoliation letter OUR the client.
+        </div>
+        <div class="content-section critical-text" id="1.1.15.1.">
+            (1.1.15.1.) a. We need to send spoliation letters to Plaintiff and obtain the black box and dash cam video information from Plaintiff right away within 10 days of assignment of case.
+        </div>
+        <div class="content-section" id="1.1.15.2.">
+            (1.1.15.2.) b. We will draft standard form letters that we can all use.
+        </div>
+
+        <div class="content-section" id="1.1.16.">
+            (1.1.16.) 16. Demand for authorizations – In these trucking cases especially, the Plaintiff’s lawyers are all about trying to set everyone up for bad faith. One of the areas we are always hamstrong with analyzing is Plaintiff’s complete records post accident and records that predate the accident. In cases we get involved early, we need to triage whether to ask OC for the name of providers that predate and post date the accident. In trucking and GL cases, the history of the patient medical conditions prior to the accident is vitally important.
+        </div>
+
+        <div class="content-section" id="1.2.">
+            <strong>(1.2.) Timeline within 15- 30 days from receipt of assignment of the case</strong>
+        </div>
+        <div class="content-section critical-text" id="1.2.1.">
+            (1.2.1.) 17. Deposition and USS must be set for Plaintiff within 30 days of acceptance of assignment. The Primary lawyer is responsible for making sure this occurs in coordination with me as to how and who will handle. The depo should be set out for at least 60 days so we can get discovery responses. Sometimes over the years I have been hesitant to set these depositions because I know that we have not sent out discovery and or we have not requested records. This is not a good practice.
+        </div>
+        <div class="content-section" id="1.2.2.">
+            (1.2.2.) 18. 10 days before a responsive pleading is due, Primary lawyer should discuss with me thoughts about a responsive pleading: Answer, motion to dismiss and or motion to compel arbitration . Or whether service is improper motion to quash service. Draft pleading of what we decide to file should be provided to me 5 days before due.
+        </div>
+        <div class="content-section" id="1.2.3.">
+            (1.2.3.) 19. Insureds that are not being responsive. Primary attorney should meet with me to discuss plan to engage the insured. By this point, the Primary attorney would have already summarized the claims file and identified all points of contact for the insured. When emails and calls don’t work then send certified return letter. If no response by 20 days from receipt of assignment, then we need to obtain approval from client to engage investigator. We need to have investigators who find and hand serve people and does what it takes to get service. We need to obtain authority from claims person to do what it takes and then we need to communicate same to investigator. An investigator who goes by the insured’s house at noon on a Wednesday and leaves a letter at the door is wasting time and money. We need an investigator who will find the insured wherever he/she is and hand serve them. This investigator needs to be able to effectively explain that we are on the side of the insured and why they should cooperate. For example our two trials in a week have Haitian drivers. If we have a Hatian insured, we need to have an investigator that can speak Creole. The Primary attorney must work with the paralegal closely on devising the plan on how to find the insured. The Primary attorney cannot simply delegate this to the paralegal. We need to create a memo timeline of all of the efforts we are making as we go. We need to have a copy of letters and this timeline all together in one subfile: under the witness file and under the insured’s name.
+        </div>
+        <div class="content-section" id="1.2.4.">
+            (1.2.4.) 20. The primary lawyer should speak with me to consider whether to retain an expert and if so the type of expert at this time.
+        </div>
+
+        <div class="content-section" id="1.3.">
+            <strong>(1.3.) Timeline 15 to 60 days from receipt of assignment of case</strong>
+        </div>
+        <div class="content-section" id="1.3.1.">
+            (1.3.1.) 21. Within 30 days after assignment - Primary attorney must review the medical records in our possession for our client regarding Plaintiff and identify key providers that must be interviewed.
+        </div>
+        <div class="content-section" id="1.3.2.">
+            (1.3.2.) 22. Interview of key staff or witnesses to be accomplished and a summary of same must be sent to client.
+        </div>
+        <div class="content-section" id="1.3.2.1.">
+            (1.3.2.1.) a. Identify key staff that we may want to use as a witness at trial.
+        </div>
+        <div class="content-section" id="1.3.2.2.">
+            (1.3.2.2.) b. Paralegals – must keep up the witness folders in the computer file.
+        </div>
+        <div class="content-section" id="1.3.3.">
+            (1.3.3.) 23. Paralegal and Primary lawyer will provide summary of the responses by Plaintiff to discovery to client. Please provide to me for review before sending out.
+        </div>
+        <div class="content-section" id="1.3.4.">
+            (1.3.4.) 24. Paralegal and Primary lawyer will send Plaintiff’s counsel a letter identifying any deficient responses to Defendants discovery. Please provide for me to review before sending out.
+        </div>
+        <div class="content-section" id="1.3.5.">
+            (1.3.5.) 25. Insured’s responses to Plaintiff’s discovery – draft responses need to be provided to me 5 days before they are due. If there are problems along the way with getting information from the insured let me know. While the paralegal has the most contact with the insured about obtaining documents from the insured, the Primary lawyer must be involved as well and actively helping the situation along. This is not something the Primary lawyer delegates to the paralegal. When I receive the draft responses, the responses should be in ready form to be sent to the Plaintiff.
+        </div>
+        <div class="content-section" id="1.3.6.">
+            (1.3.6.) 26. Within 60 days of receipt of assignment the paralegal must draft an email to the Primary attorney indicating what efforts have been made so far to obtain records that pre-date the incident in question. Every 60 days thereafter the paralegal will draft an update memo. The Primary lawyer shall work with the paralegal to ensure we are seeking every avenue to obtain the antecedent records.
+        </div>
+        <div class="content-section" id="1.3.7.">
+            (1.3.7.) 27. Witness list - I would like the paralegals to prepare a witness list as the case develops so that when we get to the deadline for producing a witness list pursuant to the court order, the list is prepared. I understand that Filevine has a location to put information about witnesses. That should continue to be used. This however is an actual witness list that we can serve on Plaintiff at the time needed. The Primary lawyer needs to review this list every 30 days thereafter.
+        </div>
+        <div class="content-section" id="1.3.8.">
+            (1.3.8.) 28. Request Probate file – In wrongful death cases, we need to request the probate file.
+        </div>
+
+        <div class="content-section" id="1.4.">
+            <strong>(1.4.) Timeline after 60 to 90 days after assignment</strong>
+        </div>
+        <div class="content-section critical-text" id="1.4.1.">
+            (1.4.1.) 29. We need to provide the client an initial evaluation of the case by day 75 from the day we accepted assignment. As such I need to have a copy of the initial eval by day 65.
+        </div>
+        <div class="content-section" id="1.4.1.1.">
+            (1.4.1.1.) a. This means we need to prepare a chronology by this day;
+        </div>
+        <div class="content-section" id="1.4.1.2.">
+            (1.4.1.2.) b. Letter summaries of the records received thus far need to have been sent to the client.
+        </div>
+        <div class="content-section" id="1.4.1.3.">
+            (1.4.1.3.) c. A comprehensive initial eval needs to be completed with a good analysis based on the information we have at this time.
+        </div>
+        <div class="content-section" id="1.4.1.4.">
+            (1.4.1.4.) d. Hopefully the Plaintiff’s depo is taken by now but at a minimum it is set.
+        </div>
+        <div class="content-section" id="1.4.1.5.">
+            (1.4.1.5.) e. Interview of key employees and or witnesses should have taken place and a summary of same been sent to the client.
+        </div>
+        <div class="content-section" id="1.4.1.6.">
+            (1.4.1.6.) f. Cumulative reports for the client per their guidelines – Our objective is to provide focused reports that contain key information. We want to be as focused as possible while still giving the client sufficient information for the client to understand the context. We should produce the chronologies along with our reports because the client can then spend all the time they want to review the details. But our job is to synthesize the case in these reports. Again not so short that they provide no context. But we want to pack analysis into the report.
+        </div>
+        <div class="content-section" id="1.4.1.7.">
+            (1.4.1.7.) g. Analyzing by issue – We should always analyze cases by issues. For example, in a long-term care case, the Plaintiff may be critical that the Plaintiff fell, developed pneumonia and developed a pressure ulcer. The allegations need to be separately analyzed. There needs to be a section that explains what the Plaintiff alleges about the fall and what the Plaintiff’s basis for same may be. Then we need to either confirm that the evidence is correct and or state the basis why the evidence is incorrect identifying what evidence is in support of the defense position. This sort of process should occur no matter what type of case it is.
+        </div>
+
+        <div class="content-section" id="1.4.2.">
+            (1.4.2.) 30. Background searches as case progresses - Paralegal and Primary attorney will work on identifying key witnesses. Once the key witnesses are identified, the paralegal shall:
+        </div>
+        <div class="content-section" id="1.4.2.1.">
+            (1.4.2.1.) i. Obtain a background check on the witness;
+        </div>
+        <div class="content-section" id="1.4.2.2.">
+            (1.4.2.2.) ii. If it is a client’s current or former employee, Paralegal will obtain their personel file from client within 10 days of when we identify the witness as a key witness.
+        </div>
+        <div class="content-section" id="1.4.2.3.">
+            (1.4.2.3.) iii. The employment file of the Plaintiff needs to be subpoenaed
+        </div>
+        <div class="content-section" id="1.4.2.4.">
+            (1.4.2.4.) iv. Within 10 days of the day when the file is received, key aspects of the filed should be added to a chrono specific to these records. This individual chrono then should also be merged into the main chrono.
+        </div>
+        <div class="content-section" id="1.4.2.5.">
+            (1.4.2.5.) v. Paralegal will prepare a letter summary of the key aspects of the personal file and will provide same to Primary attorney for review within 10 days of receipt of the file. Primary attorney is to send me the final draft of the letter before it being sent to client.
+        </div>
+
+        <div class="content-section" id="1.4.3.">
+            (1.4.3.) 31. Working To Do List – Once this initial eval is prepared, the Primary attorney will create a Case To Do List. This list should list the actual tasks that need to be completed and should set forth the strategy behind the tasks for how we plan to best defend the case. The list should outline in bullet points what our points of strategy are for the ultimate best defense. This should be a working document. Meaning the tasks that are completed should have a line through them and the date completed. But they will remain on the to do list. Amy, please lead the charge in designing a To Do Form that we all use.
+        </div>
+        <div class="content-section" id="1.4.4.">
+            (1.4.4.) 32. Filevine – I am not going to get into the weeds of how to file things in filevine here. However, from the inception of a new file, everyone should be placing information into filevine the same way. Every file needs to be identical. We must work within a team setting which means anyone can look at one of our files and knows exactly where to find things: no exceptions.
+        </div>
+        <div class="content-section" id="1.4.5.">
+            (1.4.5.) 33. Proposal for Settlement – We should discuss with client whether to issue a PFS at this time the 90th day and revisit every quarter.
+        </div>
+        <div class="content-section critical-text" id="1.4.6.">
+            (1.4.6.) 34. Gap analysis - The primary attorney is responsible for preparing a gap analysis report within 90 days of receipt of the case. That is a report that identifies all the times where Plaintiff did not receive any care. These gaps in care may be evidence that the Plaintiff does not have the pain they claim to have in deposition.
+        </div>
+
+        <div class="content-section" id="1.5.">
+            <strong>(1.5.) Timeline after 90 days assignment of case</strong>
+        </div>
+        <div class="content-section" id="1.5.1.">
+            (1.5.1.) 35. After 90 days:
+        </div>
+        <div class="content-section" id="1.5.1.1.">
+            (1.5.1.1.) a. We need to be following our to do list. This is a working document which describes what our plan is and update same with whatever we accomplished;
+        </div>
+        <div class="content-section" id="1.5.1.2.">
+            (1.5.1.2.) b. Providing status reports every 30 days to the clients – see format in Expectation Guide;
+        </div>
+        <div class="content-section" id="1.5.1.3.">
+            (1.5.1.3.) c. Providing reports to client per their guidelines
+        </div>
+        <div class="content-section" id="1.5.1.4.">
+            (1.5.1.4.) d. Work the case so there are no rushes as we are getting close to trial.
+        </div>
+        <div class="content-section" id="1.5.1.5.">
+            (1.5.1.5.) e. Non-party records – Obtaining these is a key part of the case.
+        </div>
+        <div class="content-section" id="1.5.1.5.1.">
+            (1.5.1.5.1.) i. Non-party must be up to date;
+        </div>
+        <div class="content-section" id="1.5.1.5.2.">
+            (1.5.1.5.2.) ii. Paralegal and Primary lawyer must make sure we are obtaining update records from Plaintiff caregivers.
+        </div>
+        <div class="content-section" id="1.5.1.5.3.">
+            (1.5.1.5.3.) iii. Primary attorney must audit non-party log with paralegal every 30 days if not sooner.
+        </div>
+        <div class="content-section" id="1.5.1.5.4.">
+            (1.5.1.5.4.) iv. Paralegal should draft a memo or email summarizing progress made in obtaining antecedent records every 30 days.
+        </div>
+
+        <div class="content-section" id="1.5.1.6.">
+            (1.5.1.6.) f. Trial Order – Once the trial order comes out setting the case for trial:
+        </div>
+        <div class="content-section" id="1.5.1.6.1.">
+            (1.5.1.6.1.) i. The paralegal and the Primary attorney on the file need to audit the file and update the To Do List. Please note on the to do list the additions to the to do list noting the audit as a the “trial order audit”.
+        </div>
+        <div class="content-section" id="1.5.1.6.2.">
+            (1.5.1.6.2.) ii. Witness list – must be updated by paralegal
+        </div>
+        <div class="content-section" id="1.5.1.6.3.">
+            (1.5.1.6.3.) iii. Exhibit list – must be updated by paralegal
+        </div>
+        <div class="content-section" id="1.5.1.6.4.">
+            (1.5.1.6.4.) iv. Paralegal and Primary attorney will ensure that team is meeting all trial deadlines.
+        </div>
+        <div class="content-section" id="1.5.1.6.5.">
+            (1.5.1.6.5.) v. Primary attorney will draft memo to me indicating what if any MSJs should be prepared and set a timeline for accomplishing same.
+        </div>
+        <div class="content-section" id="1.5.1.6.6.">
+            (1.5.1.6.6.) vi. Paralegals will evaluate every 30 days after trial order is issued what if any records need to be sent to experts. This will be noted in the non-party log.
+        </div>
+        <div class="content-section" id="1.5.1.6.7.">
+            (1.5.1.6.7.) vii. Paralegal shall work with Larissa for obtaining key non-party records and will keep Primary care attorney informed of progress and issues there may be. Paralegals will create a column on the non-party log confirming monthly audits are being performed. On the last day of the month paralegal will send Primary attorney and me an email indicating issues with obtaining non-party records.
+        </div>
+        <div class="content-section critical-text" id="1.5.1.6.8.">
+            (1.5.1.6.8.) viii. New records received should be sent to experts within 7 days of when they came into the office. The Paralegal and the Primary attorney shall discuss if a newly received record should be sent to an expert: any questions should be run by me.
+        </div>
+
+        <div class="content-section" id="1.5.1.7.">
+            (1.5.1.7.) g. Written Discovery –
+        </div>
+        <div class="content-section" id="1.5.1.7.1.">
+            (1.5.1.7.1.) i. We must pursue the Plaintiff’s expert treating doctor machine with discovery (see Expectation Guide).
+        </div>
+        <div class="content-section" id="1.5.1.7.2.">
+            (1.5.1.7.2.) ii. Paralegal must issue expert witness discovery the day after Plaintiff discloses experts
+        </div>
+
+        <div class="content-section" id="1.5.1.8.">
+            (1.5.1.8.) h. Expert Witness Disclosure –
+        </div>
+        <div class="content-section" id="1.5.1.8.1.">
+            (1.5.1.8.1.) i. Paralegal shall provide Primary attorney a draft expert witness disclosure pleading 20 days before it is due. By this time we should have retained experts months before as initiated by the Primary attorney.
+        </div>
+        <div class="content-section" id="1.5.1.8.2.">
+            (1.5.1.8.2.) ii. Primary attorney shall provide me the edits EWD 10 days before it is due.
+        </div>
+        <div class="content-section" id="1.5.1.8.3.">
+            (1.5.1.8.3.) iii. When we are scrambling to submit EWD for filing at the last minute, we often times draft EWD with bland non-committal disclosures. This is not a good practice. The Primary attorney and paralegal should work to provide disclosures consistent with what the Trial Order contemplates.
+        </div>
+
+        <div class="content-section" id="1.5.1.9.">
+            (1.5.1.9.) i. Mediations – Mediation will be set in a great majority of our cases. Once a case is set for meditation, the Primary attorney and paralegal shall audit the file to determine what discovery we have and what discovery we still need before the mediation in order to be able to properly advise the client about the case.
+        </div>
+        <div class="content-section" id="1.5.1.9.1.">
+            (1.5.1.9.1.) i. Mediation Report to Client - The Primary lawyer shall provide me for editing 10 days before the client’s deadline to provide the client with a mediation report per the client’s guidelines.
+        </div>
+        <div class="content-section" id="1.5.1.9.2.">
+            (1.5.1.9.2.) ii. Mediation Report to Mediator - The Primary attorney shall provide me for editing 5 days before the mediation or 5 days before a mediator’s guidelines require that the mediator be provided a report.
+        </div>
+
+        <div class="content-section" id="1.5.1.10.">
+            (1.5.1.10.) j. 120 days before trial-
+        </div>
+        <div class="content-section" id="1.5.1.10.1.">
+            (1.5.1.10.1.) i. Paralegal and Primary attorney must audit the file to determine what is needed for trial and set in motion by adding to the To Do list noting that this is the 120 day from trial audit. Please email this audit on the 120th day.
+        </div>
+
+        <div class="content-section" id="1.5.1.11.">
+            (1.5.1.11.) k. 90 days before trial
+        </div>
+        <div class="content-section" id="1.5.1.11.1.">
+            (1.5.1.11.1.) i. Paralegal and or legal assistant will start:
+        </div>
+        <div class="content-section indent-1" id="1.5.1.11.1.1.">(1.5.1.11.1.1.) 1. Trial notebook (legal assistant)</div>
+        <div class="content-section indent-1" id="1.5.1.11.1.2.">(1.5.1.11.1.2.) 2. Pleadings notebook; (legal assistant)</div>
+        <div class="content-section indent-1" id="1.5.1.11.1.3.">(1.5.1.11.1.3.) 3. Discovery notebook (paralegal)</div>
+        <div class="content-section indent-1" id="1.5.1.11.1.4.">(1.5.1.11.1.4.) 4. Schedule meetings with defense experts, insureds, claims manager and other key witnesses for three weeks before trial to meet with lawyers (legal assistant).</div>
+        <div class="content-section indent-1" id="1.5.1.11.1.5.">(1.5.1.11.1.5.) 5. Continue to update exhibit and witness list for trial (Paralegal).</div>
+        <div class="content-section" id="1.5.1.11.2.">
+            (1.5.1.11.2.) ii. Primary attorney – Motions limine
+        </div>
+        <div class="content-section indent-1" id="1.5.1.11.2.1.">(1.5.1.11.2.1.) 1. Primary attorney will draft memo to CJI with suggested areas for MIL</div>
+        <div class="content-section indent-1" id="1.5.1.11.2.2.">(1.5.1.11.2.2.) 2. Primary attorney will note when deadline for filing and having MIL heard.</div>
+
+        <div class="content-section" id="1.5.1.12.">
+            (1.5.1.12.) l. 45 days before trial
+        </div>
+        <div class="content-section" id="1.5.1.12.1.">
+            (1.5.1.12.1.) i. Primary attorney will work on plan for demonstrative exhibits and will send me an email with a game plan regarding same.
+        </div>
+        <div class="content-section" id="1.5.1.12.2.">
+            (1.5.1.12.2.) ii. Primary attorney and CJI will create a task list for who will perform the line page deposition summaries and page line designations.
+        </div>
+        <div class="content-section" id="1.5.1.12.3.">
+            (1.5.1.12.3.) iii. Primary attorney will complete proposed jury instructions for trial.
+        </div>
+        <div class="content-section" id="1.5.1.12.4.">
+            (1.5.1.12.4.) iv. Primary attorney will create:
+        </div>
+        <div class="content-section indent-1" id="1.5.1.12.4.1.">(1.5.1.12.4.1.) 1. Witness analysis form – This is a form that identifies the pluses and negative points for each witness that may be called as a witness at trial either by Plaintiff or Defendant. The document will list positive points that this witness brings to the case and then negative points. This is to be done in bullet point - short phrases.</div>
+        <div class="content-section indent-1" id="1.5.1.12.4.2.">(1.5.1.12.4.2.) 2. Order of proof – Primary attorney will create an order of proof that outlines who handles what witness at trial and who we will call in the defense case and what evidence we plan to introduce through that witness.</div>
+
+        <div class="content-section" id="1.5.1.13.">
+            (1.5.1.13.) m. Two weeks before trial
+        </div>
+        <div class="content-section" id="1.5.1.13.1.">
+            (1.5.1.13.1.) i. All exhibits placed in boxes in folders (3 copies)
+        </div>
+        <div class="content-section" id="1.5.1.13.2.">
+            (1.5.1.13.2.) ii. Trial, pleading and discovery notebooks updated.
+        </div>
+        <div class="content-section" id="1.5.1.13.3.">
+            (1.5.1.13.3.) iii. Line by line depo summaries and depo designations (unless court order requires depo designations to happen earlier) to be completed.
+        </div>
+        <div class="content-section" id="1.5.1.13.4.">
+            (1.5.1.13.4.) iv. Legal assistant will set a one hour meeting for team to go over details of the last two weeks before trial.
+        </div>
+
+        <p>As I note above, this checklist is a very basic list of the most important things that should be and need to be happening generally in a case to ensure we are not scrambling to get things done. Please let me know if you think I missed something that should be added to this list and or if you have any suggestions or recommendations.</p>
+        <p>Remember the goal here is to be excellent and accountable in all we do.</p>
+        <p>Please confirm that you have reviewed this in its entirety by this Tuesday and let me know if you have any questions, concerns and or additions that should be added.</p>
+        <p>Isabelle please place this in a word document and send back to the entire team.</p>
+        <p>Clemente.<br>
+        Clemente J. Inclan<br>
+        Saalfield Shad, P.A.<br>
+        245 Riverside Avenue, Suite 400<br>
+        Jacksonville, Florida 32202<br>
+        P: (904) 355-4401<br>
+        F: (904) 355-3503<br>
+        E: cinclan@saalfieldlaw.com</p>
+        <div class="email-header">THIS E-MAIL MESSAGE IS FROM A LAW FIRM AND IS INTENDED SOLELY FOR THE USE OF THE INDIVIDUAL(S) OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW... [Disclaimer truncated for layout but data present]</div>
+    </div>
+
+    <hr>
+
+    <div class="content-section" id="2.">
+        <div class="email-header">"(2.) Fw: TEAM INCLAN - EXPECTATION GUIDE 2026
+Karissa Rathbun <karissarathbun@yahoo.com> To: "rappsongs@gmail.com" <rappsongs@gmail.com>
+Email 2 of 2.
+Karissa Rathbun Meehan
+904-238-5855 karissarathbun@yahoo.com
+Sun, Feb 1, 2026 at 5:42 PM
+----- Forwarded Message -----
+From: Karissa Meehan <kmeehan@saalfieldlaw.com>
+...
+From: Clemente Inclan <cinclan@saalfieldlaw.com>
+Sent: Sunday, January 4, 2026 2:30 PM
+Subject: TEAM INCLAN - EXPECTATION GUIDE 2026</div>
+
+        <p>Hello everyone,</p>
+        <p>I am really excited about 2026. We have an outstanding team and we will be able to build on a good 2025. We have 23 cases set for trial in 2026 so we are going to try cases this year and I am excited about that. The key is being ready and not having to overwork ourselves in the months, weeks and days leading up to trials. We need to prepare as we go and make sure we are ahead of the deadlines.</p>
+        <p>Our goal has to be to provide outstanding work for our clients: second to none but to do so with empathy, compassion, dedication, tenacity, creativity, efficiency and loyalty. We are a trial firm and our success to some extent depends on our trial performance when called upon to try cases. All trial activities must be given top priority by any attorney, paralegal, or legal assistant assigned such tasks and others who are not on that case should be prepared to assist in whatever fashion needed.</p>
+        <p>I think our team staffing now will be such that we can really accomplish these goals. As you all have been hearing me say lately, the staffing goal is for each person to have a case load assignment that will allow each person to be incredibly on top of their cases. My hope is that long gone will be the days of trying to scramble to get things done on a routine basis and it is my hope that by reducing case loads to a very manageable level will help to make this happen. With this case reduction, I believe everyone will be able to recall from memory for the most part where you stand on each case on any given day and time. To have the lower case loads, our team has grown and the only way to ensure that clients will continue sending us work is to provide the best service possible.</p>
+        <p>As for staffing changes, Jessica is moving to a paralegal position where I know she will continue to do excellent work. We added Jaylene to work with Isabelle to serve on our legal assistant team. As you will see from our case assignment lists, Jaylene and Isabelle will split the entire case load in half. Brent will continue to be an excellent resource on a part time basis to help each team with challenging issues like research, depositions and legal drafting. Brent will also continue to help transition cases to Richard.</p>
+        <p>While I know we discuss expectations frequently, in this email I try to capture the expectations I have for this team. Most are things we achieve and or exceed often but not all of the time. I have also outlined some new expectations which I think will be helpful in providing our clients with outstanding service.</p>
+
+        <div class="content-section" id="2.1.">
+            <strong>(2.1.) General expectations:</strong>
+        </div>
+
+        <div class="content-section" id="2.1.1.">
+            (2.1.1.) 1. Interactions with insured – It is vitally important to always show compassion, empathy, understanding and loyalty to our clients. I think we excel in this most of the time. Some clients are great and some are difficult but nevertheless those characteristics noted above must always stand out from our team. Some of our clients require more attention than others but its our job to provide each client with the amount of attention necessary to allow them to have an opportunity for the best result possible given their circumstances. This responsibility falls on the entire team, legal secretary, paralegals, the Primary attorney on the case and me. It is the responsibility of the Primary attorney to gain the trust and confidence of the insured along with me but this is a team endeavor. When the insured trusts what we say, then everything in the case will be much easier. Trust is earned. Primary attorneys should speak with the insured to cultivate this relationship from time to time and never pass this on to the paralegal or secretary as they have their own responsibility in this regard. They must know through our actions that we really care about the outcome of their case.
+        </div>
+
+        <div class="content-section" id="2.1.2.">
+            (2.1.2.) 2. Interactions with insurer and self-insured (adjuster/claims handler)– It is important to employ all of the above characteristics with the insurer but in addition it is also always vitally important to have an attitude of gratitude that they assigned the case to us. We must keep in mind that they don’t have to assign any cases to us and that there are many other firms who would love to work with these clients. Its important to keep in mind what needs they have with respect to the management of the case. Client guidelines must be followed as that is what keeps the adjuster/claims handler out of hot water with supervisors. They must know through our actions that we really care about the outcome of their case.
+        </div>
+
+        <div class="content-section" id="2.1.3.">
+            (2.1.3.) 3. Interactions with opposing counsel and all others – we always treat others with the upmost respect and professionalism. This is the case with the Plaintiffs, witnesses even obstreperous opposing counsel. Even if they don’t deserve it based on their actions we should bend over backwards to be kind and professional but never at the expense of our client losing a substantive advantage in a case.
+        </div>
+
+        <div class="content-section" id="2.1.4.">
+            (2.1.4.) 4. The primary attorney in the case. The Primary attorney has the responsibility to oversee the day to day management of the case. The Primary attorney is responsible to work with the paralegal to make sure we get what is needed to properly investigate the case. The Primary attorney is also directly responsible that the computer file is up to date.
+        </div>
+
+        <div class="content-section" id="2.1.5.">
+            (2.1.5.) 5. General Goals: While clients may differ in how much money they are willing to spend to defend a case, one of our primary goals of any case is to investigate the case in such a manner consistent with our client’s financial goals so that we can get to the truth of the matter. Almost all of our clients want us to aggressively investigate and defend their cases in obtaining experts, investigating etc. is never something they would withhold. Once we arrive at an understanding of what happened in the case and whether there is negligence on the part of our client then we are in a position to provide our clients with the best possible avenues for disposition of the case.
+        </div>
+        <div class="content-section" id="2.1.5.1.">
+            (2.1.5.1.) a. Ethics – Always be over and above any standards in being ethical and honest in what we do. Every decision we make must consider the ethical implications for which we can never compromise.
+        </div>
+        <div class="content-section" id="2.1.5.2.">
+            (2.1.5.2.) b. Consider client goals – Not all clients are the same. Some have no issue with throwing all of our resources at a case and others want to be more conservative. Know the client and assume nothing.
+        </div>
+        <div class="content-section" id="2.1.5.3.">
+            (2.1.5.3.) c. Hope – Regardless of our client’s perspective of what they want to achieve in the claim (win at trial or settle as fast as we can at all cost), I see our job as one where we give them hope. Like a light in a darkened area of their lives. Hope in some cases may be a hope to actually win at trial but in other cases, it may be for a plan to best resolve the case. I see our job as one where we get to the truth of what the likely outcome may be in front of a jury and then given that, give the client hope for what to do next. I do not want to merely provide them gloom and doom. Our analysis may lead us to believe that we would lose at trial but then our job is to help the client see why and then to help them with the next steps. This attitude of being a light for these clients needs to permeate all our communications with our clients. It does not have to be overt or direct in how we do it but it needs to be communicated.
+        </div>
+        <div class="content-section" id="2.1.5.4.">
+            (2.1.5.4.) d. Evaluating the evidence – it is our job to evaluate the evidence in the case and then knowing the law analyze the best options to suggest to our client. We must constantly be evaluating:
+        </div>
+        <div class="content-section indent-1" id="2.1.5.4.1.">(2.1.5.4.1.) i. The witnesses involved;</div>
+        <div class="content-section indent-1" id="2.1.5.4.2.">(2.1.5.4.2.) ii. The documents involved and how they impact the case;</div>
+        <div class="content-section indent-1" id="2.1.5.4.3.">(2.1.5.4.3.) iii. The law and how that impacts the case.</div>
+        <div class="content-section indent-1" id="2.1.5.4.4.">(2.1.5.4.4.) iv. What are the Plaintiffs allegations and how do we respond to each allegation. What evidence does the Plaintiff base their allegations and what evidence does the defense have to rebut the allegations regarding liability, causation and damages.</div>
+
+        <div class="content-section" id="2.1.5.5.">
+            (2.1.5.5.) e. Developing a strategy early in the case for a path to success in each case – Our job is to identify what the path is to the best results for our clients. Over the years I have seen lawyers that merely work the case. They do the work, take the depositions, write the report but with no real strategy as to how we get to the best result for the client. To me this is a just going through the motions type of practice of law which only leads to mediocrity. I do not want to practice law like that. I want to always aspire to be the best we can be. As you know, I started my legal career at the State Attorney’s Office which was a great training ground for handling cases with a path or strategy for success. As a prosecutor, a case would be assigned to you and it was your decision whether the case should be filed against the defendant or not. That determination depended on the evidence in the case. As a young prosecutor you quickly learned to analyze a case to determine whether the evidence would likely lead to a reasonable chance to win at trial. Plaintiff’s lawyer do that in civil cases. As defense lawyers we need to do the same. What evidence is there in the case and how can that get us to a win or best result possible for the client. We need to develop the strategy early in the case within 75 days from when the case was assigned to us and then move forward with everything we do in the case towards that strategy. Evidence later in the case may cause us to amend the strategy but that’s ok, we should always be open to amendments to strategy. To just work a case, do the minimum until we can get it to mediation to settle is not best practices in my view.
+        </div>
+        <div class="content-section" id="2.1.5.6.">
+            (2.1.5.6.) f. Diligence – Part 1 – There is no substitute for preparation. We must get to the truth of each case considering client goals. Once we know the facts of the case we will be in the best position to develop the best potential strategies for the client.
+        </div>
+        <div class="content-section" id="2.1.5.7.">
+            (2.1.5.7.) g. Efficiency – We must be efficient in the manner that we go about our work in these cases. Thoroughness is critically important to investigating a case: there is no doubt that the “devil is in the detail”. But we should be as efficient as possible while being thorough.
+        </div>
+        <div class="content-section" id="2.1.5.8.">
+            (2.1.5.8.) h. Daily pace and planning – The practice of law is still a joy to me after 35 years in practice. It is such a privilege to me to be able to help our clients. It is not joyful however to feel like you are putting out fires every day. As such with the reduced case loads, emergencies really need to be kept to a minimum. Likewise we should never have a client asking us for an overdue report. We should attack our cases with a plan and move expeditiously to employ that plan. That means we need to plan months at a time. We need to have a game plan in place for each week and each day. Our days should look like a brisk walk and should not look like a sauntering walk picking tulips. Our days should also not look like a sprint where we miss important things. Nowadays people like to use the phrase, “be present”. I think that is a good way of approaching our tasks.
+        </div>
+        <div class="content-section" id="2.1.5.8.1.">
+            (2.1.5.8.1.) i. A lack of urgency – to not move the case and address issues is a bad practice and a red flag to any claims handler. The only exception is a case where the claims handler and insured want us to take minimal action. We must attack every day with a sense of urgency and clear purpose.
+        </div>
+        <div class="content-section" id="2.1.5.9.">
+            (2.1.5.9.) i. Dedication - effort expected – I expect that I give my best effort in my work. My best may pale in comparison to someone else’s half effort but at least I know I gave all I had. This is a practice that must happen daily throughout the day on our team. I expect that everyone give their best effort every day.
+        </div>
+        <div class="content-section" id="2.1.5.10.">
+            (2.1.5.10.) j. Diligence – Part 2 – I have never thought that being a lawyer is easy. I think it is challenging every day but it is entertaining and exceptionally rewarding to help a client who may be going through a difficult time. Being a lawyer means looking for details because that is the path to victory for your client and or at least the path to the best resolution. This applies to all legal professionals – paralegals, legal assistants and others in our office legal team. When we know the details, we have or are able to conjure:
+        </div>
+        <div class="content-section indent-1" id="2.1.5.10.1.">(2.1.5.10.1.) i. Confidence in our recommendations and our actions;</div>
+        <div class="content-section indent-1" id="2.1.5.10.2.">(2.1.5.10.2.) ii. Creativity comes when we really know our cases. When one is not prepared, survival is all one can think of and that is not a fun way to practice law.</div>
+        <div class="content-section indent-1" id="2.1.5.10.3.">(2.1.5.10.3.) iii. Moving the cases – We need to make sure we are moving the cases along and they are not just sitting there with no motion towards resolution. Every month there needs to be forward progress. When one does not know one’s case, then one does not know what to move or how to move it but when one knows the details of a case, then the best path becomes clear.</div>
+        
+        <div class="content-section" id="2.1.5.11.">
+            (2.1.5.11.) k. Mission – We should treat our clients as if they were our own family members who are having these difficulties. If we can’t do that then this is the wrong line of work. If we are treating someone just like another case or another assignment without remembering that what we do is to serve these clients as best we can then again this is the wrong line of work. Without that servant attitude this job is too tough and demands too much. There are easier jobs outside of this line of work.
+        </div>
+        <div class="content-section" id="2.1.5.12.">
+            (2.1.5.12.) l. Problem solver – Most every case we are assigned to will have problems. Maybe it is an insured truck driver who is not responsive, an administrator who does not provide us the documents as they should, a vexing legal issue, a difficult to decipher contract, a doctor who or adjuster who is overbearing or a type of case that we are not super familiar with. We should embrace these challenges and find a way to figure them out. As lawyers we have the training and ability to figure things out. That is our job – we must find a way. Have an attitude that there is no problem you can’t figure out. Be creative and find ways to figure things out – that is what we do. This may mean researching a legal issue more, talking to a client, speaking with an expert etc. There are many different ways to figure things out. Same goes for paralegals and legal assistants.
+        </div>
+        <div class="content-section" id="2.1.5.12.1.">
+            (2.1.5.12.1.) i. Festering – Problems that fester and go unresolved usually get worse and more difficult to solve. Or, not solving the problem leads to new problems and or by not dealing with an issue our client’s position in the case may become weakened. We must not let these difficult issues fester. We must tackle them head on now – don’t wait. The Primary attorney assigned to the case is primarily responsible for initiating the way to a solution
+        </div>
+        <div class="content-section" id="2.1.5.13.">
+            (2.1.5.13.) m. Settlement v. Trials – If our client wants to settle the case then we need to put our client in the best position for the best settlement. If our client wants to try a case then we need to be the type of firm that provides the clients the best possible trial work in the world: second to none. We are a litigation firm and we must be prepared to try cases and do the best job possible. We need to do this with joy in our hearts. Trial does take some sacrifice but that is needed and to be on this team there must be a willingness to do what it takes. By attacking cases as they progress, we also put ourselves in the best position for a less stressful trial experience.
+        </div>
+        <div class="content-section" id="2.1.5.14.">
+            (2.1.5.14.) n. Difficulty of cases – We should always be open to take on the toughest cases. When clients have a difficult case, I want them to think of us as being the firm that can best help them. I don’t want to be thought of as the lawyer or firm who can only handle the easy stuff. Bring on the challenge – lets meet it head on. Embrace the challenge as opposed to looking for what is easy should be out motto.
+        </div>
+        <div class="content-section" id="2.1.5.15.">
+            (2.1.5.15.) o. 90 days to do investigations of cases upon receipt of assignment – In medical malpractice cases we have to retain an expert, exchange discovery, take unsworn statements and evaluate cases prior to the 90 day end of presuit. In Long Term Cases the window is 75 days. We need to investigate all cases to the best of our ability within the 75 to 90 days of receiving the assignment. Plaintiff’s lawyers are often now trying to set up attorney’s fees traps by issuing proposals for settlement on the very first day that they can issue a PFS: we need to be able to provide our client with a good evaluation in that time frame. I recognize (especially with preexisting medicals) that we may learn more information later but we need to make our best efforts to have a good comprehensive eval in this time frame. This means we need to obtain and evaluate medical records, interview key witnesses, set Plaintiff’s deposition, and provide the client with a great evaluation of the case by day 75 from the day of assignment. We also need to be retaining experts to help us assess these cases in that time frame.
+        </div>
+
+        <div class="content-section" id="2.2.">
+            <strong>(2.2.) Areas of practice generally:</strong>
+        </div>
+
+        <div class="content-section" id="2.2.1.">
+            (2.2.1.) 6. Conflict of Interest checks – When we get a new case assignment, I’ll do my best to get the email over to Isabelle and Jaylene as soon as I can. Performing a conflict check immediately is a high priority that needs to be done right away: within the same business day but certainly within 24 hours.
+        </div>
+        <div class="content-section" id="2.2.2.">
+            (2.2.2.) 7. Meeting with the insured and insurer - I will set the team for each case when I send the acceptance of assignment email to the client. The Primary attorney for this assignment is responsible for working with me to set up a time to speak with the insured and insurer for that case. We need to make contact with the insurer and insured to either discuss the case or to set a time when we can discuss the case within 24 to 48 hours of accepting the assignment. We need to provide the client a summary of this meeting within 5 days of the meeting. It is the Primary attorney’s responsibility to draft a summary within 2 days from the meeting for my review.
+        </div>
+        <div class="content-section" id="2.2.2.1.">
+            (2.2.2.1.) a. Interviews of other client/insured employees - In addition to meeting with the client, we need to meet with key employees within 60 days from receiving a file and provide a summary to the client of the meeting within 10 days of the meeting.
+        </div>
+
+        <div class="content-section" id="2.2.3.">
+            (2.2.3.) 8. Reporting/communicating with Clients and internally so as to be able to communicate with client:
+        </div>
+        <div class="content-section" id="2.2.3.1.">
+            (2.2.3.1.) a. As important as the result we help our clients achieve in a case: how we report and communicate on the case through the pendency of the case is just as important if not more important in the eyes of adjusters. As noted above, treating our clients with empathy, respect, compassion and loyalty are a given. To do so, I recognize that it takes more time and effort: but it is an absolute must. Whether we stay in business or not is determined by whether these clients wish to send us more work in the future in a field where there are many many lawyers who would like to do their work. Performance and accountability is how it works:
+        </div>
+        <div class="content-section critical-text" id="2.2.3.1.1.">
+            (2.2.3.1.1.) i. 24 hour rule for client inquiries: We must respond to any client inquiries within 24 hours or less. It is the Primary lawyer’s responsibility to answer what you can and then to triage with me anything you feel that my input is needed within that 24 hour period. That is if I did not respond immediately.
+        </div>
+        <div class="content-section" id="2.2.3.1.1.1.">
+            (2.2.3.1.1.1.) 1. One exception is routine scheduling issues. In these cases the Primary attorney and or any other team member dealing with that task should respond.
+        </div>
+        <div class="content-section" id="2.2.3.1.2.">
+            (2.2.3.1.2.) ii. Client reporting guidelines:
+        </div>
+        <div class="content-section" id="2.2.3.1.2.1.">
+            (2.2.3.1.2.1.) 1. At times because of an abundance of work, we have not always met the reporting guidelines for clients. This is a very bad practice that keeps me up at night and that I worry about all of the time about losing that client because of it. Sometimes I think it is a miracle that we have not lost a client because of late reporting but I think our great results and other many good things we do, has somehow kept us in the game. But it is my hope that with the new low caseloads, this will not be an issue any longer. I would like to get client required reports to clients at least a day to a week before they are due if not sooner. Each primary attorney is responsible for knowing what the client guidelines are for reporting and making sure we stay on track about this. The entire team needs to know what the client guidelines are by memory. I think this will help us when we send our cumulative reports to the client per guidelines.
+        </div>
+        <div class="content-section" id="2.2.3.1.2.2.">
+            (2.2.3.1.2.2.) 2. My input in getting client reports out - From time to time reports have not gone out because they have been sent to me by the Primary lawyer and I don’t look at them for some time. I assure you this is not because I don’t have an understanding of the importance of getting these reports out but rather it is always because there are hotter fires to extinguish. I am committed to minimizing a practice where we are on a routine basis just trying to put out fires. Giving me the reports to review with ample time before they are due will help me to work them into my schedule. To that end:
+        </div>
+        <div class="content-section" id="2.2.3.1.2.2.1.">
+            (2.2.3.1.2.2.1.) a. Scheduling and non-substantive emails do not need to be run by me. Once the Primary lawyer and I approve of scheduling then the legal assistant and or paralegal should send emails without my input. Smaller substantive reports can be sent to the client without my editing if the primary lawyer and I discuss it first.
+        </div>
+        <div class="content-section" id="2.2.3.1.2.2.2.">
+            (2.2.3.1.2.2.2.) b. Substantive reports – The primary attorney needs to get these to me 10 days before they are due. It really slows the process down if I have to spend significant time editing and or asking questions. Questions back and forth in emails for days is not the way to go. To cut down on the back and forth of editing, I would ask the Primary attorney to spend a few minutes talking to me about issues the Primary attorney may be encountering as the report is being written. A 5 minute conversation here and there as the report is being written will cut down on the time of the back and forth of me asking questions. Once you receive my edits back with questions then please discuss those with me so we can again cut down on the back and forth. Sending me back an email with responses as opposed to just discussing same with me is not the best way to do it as it only causes further delay. After I send a report back with edits, our plan needs to be to get the final report to the client well before the deadline.
+        </div>
+        <div class="content-section indent-1" id="2.2.3.1.2.2.2.1.">(2.2.3.1.2.2.2.1.) i. These reports are key and really need to show the client we are on top of things. We need to provide the client with an honest insightful assessment of the case with a thorough analysis of what are the best options going forward.</div>
+        <div class="content-section indent-1" id="2.2.3.1.2.2.2.2.">ii. When I receive a report to review, I expect that it is basically ready to be sent to the client with only very minor edits if any from me. Again, if I am spending a lot of time with edits then that slows me down tremendously and impacts every case. If I am in the weeds on cases we are in trouble. I need to rely on the Primary attorney and paralegal to get in the weeds and distill what is most important from the weeds for my review. My hope is that I read the report in very short order and we get it out. Reports need to be efficiently written so as to be clear, concise and insightful. Nobody has time to sift through superfluous information to try to find out what is truly important. The adjuster can’t stand long non-focused reports. On the other hand reports that lack key information or analysis are equally a waste of time. If we don’t have information that we should have, we need to state what that information is, why we don’t have it and what we are trying to do to obtain it. We should triage questions verbally if there is a question about whether something is or is not significant while drafting the report.</div>
+        
+        <div class="content-section" id="2.2.3.1.2.2.3.">
+            (2.2.3.1.2.2.3.) iii. 30 day informal reports to client (on firm letterhead):
+        </div>
+        <div class="content-section indent-1" id="2.2.3.1.2.2.3.1.">(2.2.3.1.2.2.3.1.) 1. I would like to institute a game plan where we provide a report to the client every 30 days. This report should be short and should take no more than an hour to complete. The purpose of these reports is to communicate with the client. I want the client to know we are really on top of these cases. This is the entire purpose of having a lower case count. Clients really dislike when we have cases that just sit and there is no progress. We must move cases. I also think these reports will help us to stay on track in our own cases:</div>
+        <div class="content-section indent-1" id="2.2.3.1.2.2.3.1.1.">(2.2.3.1.2.2.3.1.1.) a. Brief summary of the facts of the case and procedural status of the case.</div>
+        <div class="content-section indent-2" id="2.2.3.1.2.2.3.1.1.1.">(2.2.3.1.2.2.3.1.1.1.) i. For example: Dear Adjuster, as you will recall, this is the case where the Plaintiff suffered a complication after spine surgery at Baptist hospital and has brought claims against …… We received a presuit NOI on 12/1/25 and presuit is set to end on 2/1/26.</div>
+        <div class="content-section indent-1" id="2.2.3.1.2.2.3.1.2.">(2.2.3.1.2.2.3.1.2.) b. Update since last reporting</div>
+        <div class="content-section indent-2" id="2.2.3.1.2.2.3.1.2.1.">(2.2.3.1.2.2.3.1.2.1.) i. For example: Since our last brief status update, we issued presuit discovery to Plaintiff, received their responses and sent you a summary of same last week on ______. We have issued authorizations to the following key non-party caregivers but have not received same yet. You approved Dr. X to serve as a presuit expert, sent her the records that were provided to us with the NOI. (if we sent the client substantive letters then we just state what we sent and when)</div>
+        <div class="content-section indent-1" id="2.2.3.1.2.2.3.1.3.">(2.2.3.1.2.2.3.1.3.) c. Plan for the next 30 days:</div>
+        <div class="content-section indent-2" id="2.2.3.1.2.2.3.1.3.1.">(2.2.3.1.2.2.3.1.3.1.) i. Here we really need to think about what our plans for this case are in the next 30 days: For example - We have unsworn statement set for ___ and ___. We will follow up with the non-party records noted above and plan to speak with our expert on ____ day. In the interim please let us know if you have any questions.</div>
+
+        <div class="content-section" id="2.2.3.1.3.">
+            (2.2.3.1.3.) iv. Paralegals and reporting:
+        </div>
+        <div class="content-section" id="2.2.3.1.3.1.">
+            (2.2.3.1.3.1.) 1. Plaintiff’s responses to discovery - Now with a small case load, I would like paralegals to draft letter summaries of Plaintiff’s discovery responses to our discovery to Plaintiff. Upon receipt of responses, the paralegal must draft a letter summary of those responses and provide same to the Primary attorney for editing. There needs to be an emphasis on identifying in the letter responses that are germane to the issues in the case rather than just restating the answers given. This requires that the paralegal understand the issues in the case. If the Plaintiff provides lengthy records which will take a long time to review then those can be referred to in the letter with a notation that we will be providing a summary of those under separate cover in the future. The Primary lawyer and paralegal need to come up with a game plan for who and by when these will be reviewed with a memo to the file stating as same. This needs to happen within 60 days of receiving the assignment of the case. These letters need to be short and to the point as many of the responses don’t need to be restated in a letter. The paralegal should send the letter to the Primary attorney who in turn should send to me after final edits are made by the Primary attorney. I would like to review the letter before it goes out to the client and my hope is that I should have to make very little edits if any. Make sure to point out information that Plaintiff’s counsel failed to include as part of the response and our plan to obtain that information.
+        </div>
+        <div class="content-section indent-1" id="2.2.3.1.3.1.1.">(2.2.3.1.3.1.1.) a. Within 5 days of receiving Plaintiff’s discovery response the letter summarizing same needs to be completed. Meaning the paralegal drafted the letter sent it to the Primary attorney via email attaching the response itself.</div>
+        <div class="content-section indent-1" id="2.2.3.1.3.1.2.">(2.2.3.1.3.1.2.) b. Within 5 days of receiving the Plaintiff’s discovery responses the paralegal should send an email to the Primary lawyer identifying the responses the paralegal thinks are deficient. The Primary lawyer should then within another 5 days send a letter to Plaintiff’s counsel identifying the deficiencies in the responses and asking them for a supplement within 20 days or an explanation why they can’t provide more information. These need to be substantive issues that really make a difference in our evaluation of the case. These letters should not be gotcha letters but rather truly good faith letters about things we need. Remember the Plaintiffs always send us very lengthy discovery for which we never provide everything.</div>
+
+        <div class="content-section" id="2.2.3.1.3.2.">
+            (2.2.3.1.3.2.) 2. Non- Party records -I feel that obtaining non-party records is always a challenge. Our non-party logs are very good and we should continue same.
+        </div>
+        <div class="content-section indent-1" id="2.2.3.1.3.2.1.">(2.2.3.1.3.2.1.) a. Internal emails about receipt of records - When the paralegal receives non-party records, the paralegal needs to continue to send an email to the team indicating the non-party records have been received. This email should be generated within 24 to 48 hours of receipt of the records and the records should be placed into filevine within 24 to 48 hours of receipt and bates stamped.</div>
+        <div class="content-section indent-1" id="2.2.3.1.3.2.2.">(2.2.3.1.3.2.2.) b. The plan for review of records - The Primary lawyer and paralegal then must immediately come up with a plan for who will add the records to the chronology and prepare a letter summary of same for the client. Newly received records need to be reviewed on a timely basis consistent with the other deadlines we are trying to accomplish. But at the latest, new records received should be reviewed, added to the chronology and summarized in a letter format for the client within 20 days of receipt. The Primary attorney on the case needs to perform most of this work as it is essential that the Primary attorney really understand the facts.</div>
+        <div class="content-section indent-1" id="2.2.3.1.3.2.3.">(2.2.3.1.3.2.3.) c. The Non-party log needs to reference who will be reviewing the records and if they in fact have been reviewed.</div>
+        <div class="content-section indent-1" id="2.2.3.1.3.2.4.">(2.2.3.1.3.2.4.) d. 10 days before the end of the month, I would like the paralegal to write a memo to the Primary lawyer and team identifying the records received over the last 30 days and identifying the non-party records that are problematic to obtain.</div>
+        <div class="content-section indent-1" id="2.2.3.1.3.2.5.">(2.2.3.1.3.2.5.) e. Problematic non-party records - The Primary lawyer must respond to this memo and a game plan must be created for steps to be taken to obtain these records to include setting the records custodian for a depo. The Primary lawyer and paralegal must coordinate to document the plan in an email or memo that needs to be copied into the non-party record log. We’ve had situations where a record has been subpoenaed and many calls and emails were sent to the provider but we still did not have the records 6 months later despite our paralegals making efforts over and over. We must make sure this does not happen.</div>
+
+        <div class="content-section" id="2.2.3.1.3.3.">
+            (2.2.3.1.3.3.) 3. Social media searches – Paralegals are responsible for performing social media searches and providing a letter summary for the Primary attorney to review, edit and to send to the client. The paralegal should perform these searches within the first 10 days of receipt of the case. Then upon receipt of Plaintiff’s responses to our discovery requests the paralegal should conduct another social media search if there is something in the responses that warrants same and then provide a letter summary for the primary attorney to review, edit and send to the client. The paralegal should conduct a social media search and report every three months.
+        </div>
+
+        <div class="content-section" id="2.2.3.1.4.">
+            (2.2.3.1.4.) v. Medical records and reporting: Upon receipt of medical records, same must be placed in Filevine by the paralegals within 48 hours of receipt of those records. That initial copy in Filevine needs to be labeled: with the name of the provider: indicate that it was received from the party sending the records: and note the day it was received. Another copy should be placed within Filevine within 72 hours bates stamped.
+        </div>
+        <p>We need to add medical records received to the chronology within 20 days of receiving the records and prepare a letter summary of same to the client within that time. The Primary attorney decides whether the Primary attorney or the paralegal is to review the record, add to the chrono and prepare a letter summary of same. The chrono should include what is most pertinent to the issues in the case only. The person entering information into a chrono must put their initials and the date they entered the information.</p>
+        <p>For example, if we have a trucking case where the Plaintiff has back and neck pain alleged as a result of the crash and we obtain 2 years of medical records from the Plaintiff’s PCP: the chrono should list every office visit to the PCP, what the reason is for the visit and if there are or if there are not any complaints for back and neck pain. Let’s say the Plaintiff went 20 times to the PCP and never complained of neck pain or back pain, we want to know that by listing it in the chrono. Our letter summary of these records should say so as well. The letter summaries need to focus on the impact of the records to the case. We should send the chrono for that medical record to the client for that provider so the client can look at the entirety of the entries verses our summarized key analysis letter.</p>
+        <p>Another example: let’s say that the Plaintiff went to the chiropractor for months. We need to list each office visit in the chrono but we don’t have to restate everything noted in the chiro records for each visit since the chiro records are going to be most likely identical for each visit. So yes note the first visit with some specificity. Then as to the rest of the visits we should note in the chrono something to the effect that this visit generated about the same notes as the initial visit except ….. anything that is not the same.</p>
+        <p>Gaps in the records – We must be able to establish gaps in treatment especially in the trucking and general liability cases but all cases and as such we need to create a chrono that shows exactly what treatment was received and when. If the Plaintiff testifies in deposition that they always have 10 out 10 pain we must be able to show that they did or did not receive treatment during the relevant time frame. This can potentially be very effective in our defense.</p>
+        <p>Gap analysis - The primary attorney is responsible for preparing a gap analysis report within 90 days of receipt of the case.</p>
+        <p>No endless chronos – We don’t have time to create chronos for the sake of creating chronos and just cut and paste information from the medical records that contains non germane information. I recognize that when we create chronos early on, we may not understand that something is important. However, in that circumstance, it may require us to return to make additions to the chrono at a later time but we should not list information in chrono that we don’t know is important just in case if it becomes important. If there are any questions about what may need to be in a chrono for a given case then lets discuss before you embark on the chrono.</p>
+        <p>Chronos by provider – Please create a chrono for each provider and then merge that chrono with the main chrono. When I am taking a depo of a provider, I may want to see only that provider’s records in a chrono verses sifting through a 100-pagemain chrono.</p>
+        <p>Cumulative reports for the client per their guidelines – Our objective is to provide focused reports that contain key information. We want to be as focused as possible while still giving the client sufficient information for the client to understand the context. We should produce the chronologies along with our reports because the client can then spend all the time they want to review everything. But our job is to synthesize the case in these reports.</p>
+
+        <div class="content-section" id="2.2.3.1.5.">
+            (2.2.3.1.5.) vi. Deposition and witness interviews and reporting- we need to provide summaries of witness interviews or depositions within 10 days of when they took place or as required by the litigation guidelines for the particular client if sooner is required. Or there may be circumstances where we wait to report after the transcript arrives at which case then the report should be drafted 10 days after receipt of the transcript.
+        </div>
+        <div class="content-section indent-1" id="2.2.3.1.5.1.">(2.2.3.1.5.1.) 1. The clients sometimes require as per their guidelines that I take certain depositions. I think I should have some discretion on this as many on our team are very capable of taking a good deposition of any type of witness. However, in order to comply with a client’s rule I may attend the deposition and just take notes while I am working on other things. This is a big help to me because there is no substitute for seeing a witness live and listening to their testimony as opposed to reading same in a summary or the transcript. There are times where I would want to take the deposition but I don’t have the time to prepare for it like I would like to but the Primary attorney has the time to prepare. In those cases, I may also attend the deposition but not ask questions myself. The Primary attorney is responsible for writing the summary of the deposition. Ideally you should prepare the letter summary form your notes of the depo so we can have the letter out to the client within 10 days. Many clients require that sort of time frame to provide a letter summary and as such are expecting that we can take notes during the deposition. However, some clients allow for deposition summaries to be drafted later giving us the time to do so after the transcript comes in (Again this is an example of how important it is to know the client guidelines. Legal assistants, you must know the client guidelines so you know when to schedule these dates). If that is the case then the Primary attorney should provide the letter summary within 10 days of our firm receipt of the transcript. Sometimes depending on the client and situation I will “no charge” my time and sometimes I will “no charge” the Primary attorney’s time since most clients do not allow two lawyers to bill for attendance in a deposition.</div>
+
+        <div class="content-section" id="2.2.3.1.6.">
+            (2.2.3.1.6.) vii. Significant calls with Plaintiff’s counsel and involvement with the court in hearings and reporting – we need to report these in brief emails within 24 to 48 hours of when same takes place. The report or draft email should be sent to me for final edits before sending to client if this is something truly substantive.
+        </div>
+
+        <div class="content-section" id="2.2.3.1.7.">
+            (2.2.3.1.7.) viii. Orders scheduling Trial and reporting – these need to be sent by the Primary lawyer to the client in a brief email to the client indicating the date of the trial. These need to be sent within 24 hours after receiving the order. The primary attorney needs to be sensitive to how a client may receive this information. For example, if the client is very nervous about going to trial, assure the client that this is just standard and that it does not mean the case is actually going to trial. If we owe a claims person a report and now we are piling on the order for trial we should acknowledge the overdue report and let them know when they are getting it. Or if there is something that we have been waiting on like the CME report of our expert, this is a good time to let them know where we stand with that. This is likely a good time to tell them what experts we have already retained and which others we will likely need.
+        </div>
+
+        <div class="content-section" id="2.2.3.1.8.">
+            (2.2.3.1.8.) ix. Mediation and reporting - Please pay particular attention to the client’s billing guidelines regarding the client’s requirements for reporting for mediation. Philly requires a report something like 60 days early. But if no guideline from the client, please prepare a report to give to the client about a month out before the mediation that is a comprehensive litigation report.
+        </div>
+        <div class="content-section indent-1" id="2.2.3.1.8.1.">(2.2.3.1.8.1.) 1. Once a mediation is scheduled the Primary attorney should take that opportunity to evaluate what is needed to be able to properly prepare the case for mediation. What records do we need? What depositions do we need. Mediations are super important and we should make every effort to be ready for it and to provide the client what they need to evaluate the case well in advance of same.</div>
+        <div class="content-section indent-1" id="2.2.3.1.8.2.">(2.2.3.1.8.2.) 2. After the mediation, if the case did not resolve there needs to be summary of key aspects of the mediation summarized in a short report. Since I will attend the mediation alone most of the time, I will provide the client this summary.</div>
+
+        <div class="content-section" id="2.2.4.">
+            (2.2.4.) 9. Non – party records – as noted above, obtaining nonparty records at times has been an issue. If there is a problem with obtaining the records timely the paralegal needs to email the Primary attorney and speak verbally with the attorney on the case and let the attorney know exactly what is going on so as to devise a plan for how to deal with this issue as noted below. We cannot let this go on for weeks and even months. Once the non-party receives the subpoena we need to note the time they are supposed to respond by. We should give them 10 extra days unless we need the record expedited for some reason. If after 10 days we have not received the records we need to call. If after a couple of calls and emails we do not receive the records, the Primary attorney needs to be notified by the paralegal. Immediate actions need to be taken.
+        </div>
+        <div class="content-section indent-1" id="2.2.4.1.">(2.2.4.1.) a. Records prior to the incident in question – this is an area that is exceptionally important particularly in trucking and GL cases. We must subpoena all insurance records for the Plaintiff right away to figure out what other potential providers they may have been to. This is a high priority and I want the paralegals to email the Primary lawyer when the insurance records for the Plaintiff have been subpoenaed. The paralegal should email the team a summary of efforts being made to obtain the antecedent records every 30 days.</div>
+        <div class="content-section indent-1" id="2.2.4.2.">(2.2.4.2.) b. Social Security records – these need to be obtained right away when a Plaintiff is on SSD.</div>
+        <div class="content-section indent-1" id="2.2.4.3.">(2.2.4.3.) c. We need to subpoena employment files for the Plaintiff as soon as we find out their employment history. Upon receipt of the employment records, the paralegal within 10 days should add the employment record’s relevant information into a chrono for that employment record and then merge that information into the main chrono. Within 10 days the paralegal should draft a letter summary of the employment records and send same via email to the Primary lawyer along with the individualized chrono. The letter summary should mostly be an analysis of what is pertinent to the case.</div>
+        <div class="content-section indent-1" id="2.2.4.4.">(2.2.4.4.) d. Antecedent records - We must make every effort to work backwards and obtain records that predate the accidents and imaging: see above.</div>
+        <div class="content-section indent-1" id="2.2.4.5.">(2.2.4.5.) e. Criminal records and driving records – we must run these right away. Paralegal should create an individual chrono for these, then a letter summary of these and add to the main chronology within 10 days of receipt of same.</div>
+
+        <div class="content-section" id="2.2.5.">
+            (2.2.5.) 10. Chronologies – In addition to the above, the person adding information to the chrono must identify in the chrono itself who added the information and when. Our chronos need to be all encompassing meaning add as noted above information from the employment files, social medial, criminal records, driving records;
+        </div>
+        <div class="content-section indent-1" id="2.2.5.1.">(2.2.5.1.) a. The Primary attorney is responsible for making sure the med chron is up to date;</div>
+        <div class="content-section indent-1" id="2.2.5.2.">(2.2.5.2.) b. The Primary attorney may delegate a certain medical record to be added to the med chron by a paralegal but the main records must be evaluated by the Primary attorney.</div>
+        <div class="content-section indent-1" id="2.2.5.3.">(2.2.5.3.) c. Please enter your initial and the date you have added an entry to the chrono.</div>
+        <div class="content-section indent-1" id="2.2.5.4.">(2.2.5.4.) d. When reviewing a medical record, create a separate med chon for that record you are reviewing and then merge it with the main chrono. For example, if you are reviewing the medical records for the PCP, create a medchron just for that set of medical records so we can look at just those records independently. Then merge that chrono into the main chrono.</div>
+        <div class="content-section indent-1" id="2.2.5.5.">(2.2.5.5.) e. The Primary attorney must create a letter summary of each medical record reviewed that we can easily send to the clients.</div>
+        <div class="content-section indent-1" id="2.2.5.6.">(2.2.5.6.) f. Issue Chronos – Cases often have sub-issues. For example, in a pressure ulcer case we will want to track that issue for the relevant time frame. In a sepsis case, a separate chrono will need to be created to track signs and symptoms just for issue. These issue chronos are very important and can be very helpful in getting to the bottom of the issue.</div>
+        <div class="content-section indent-1" id="2.2.5.7.">(2.2.5.7.) g. A timeline of admissions needs to be created. This gives us a bird’s eye view of all of the care. This is a timeline that just lists the dates of care without going into specifics of the case. For example:</div>
+        <div class="content-section indent-2" id="2.2.5.7.1.">(2.2.5.7.1.) i. ii. iii. iv. 1/1/25 – 2/10/25 Baptist Hospital for Pneumonia; 3/5/25 – 10/15/25 – Chiro visits (25 total); 10/10/25 – MRI – Lumbar; 10/25/25 – 1/13/26 – Dr. Cannestra – Neurosurgeon</div>
+
+        <div class="content-section" id="2.2.6.">
+            (2.2.6.) 11. Medical research – The Primary attorney will need to identify medical research on issues in the case to help question Plaintiff’s expert in depo at trial. Our experts can help us with this.
+        </div>
+        <div class="content-section" id="2.2.7.">
+            (2.2.7.) 12. Claims files – In Gl and trucking cases they typically provide us a claims file upon assignment of the case. The Primary lawyer must summarize and analyze the claims file within 5 days from the date we receive same. The claims file summary will orient us as to the case and any discovery in particular we may wish to seek. The paralegal needs to take the documents received in the claims file and add same to the client documents and O & I within 72 hours.
+        </div>
+        <div class="content-section" id="2.2.8.">
+            (2.2.8.) 13. Responses to Plaintiff’s discovery – The paralegal and the primary attorney on the case must work together to obtain the information and properly respond to Plaintiff’s discovery. This is a tedious task but a key task that must be completed correctly. Please send me what is essentially a final draft 5 days before the responses are due along with the exhibits.
+        </div>
+        <div class="content-section indent-1" id="2.2.8.1.">(2.2.8.1.) a. The Primary lawyer and paralegal must become very familiar with what documents the clients should have. This requires actively educating oneself into the type of business our client has. This takes time and effort. The GL cases vary case to case becomes the type of business we represent vary so much. As such the Primary attorney and the paralegal must essentially learn a new business every time and what documents may be available and responsive.</div>
+        <div class="content-section indent-1" id="2.2.8.2.">(2.2.8.2.) b. We should make every effort to provide the Plaintiff the discovery that he/she are entitled to have. We will never hide the ball.</div>
+        <div class="content-section indent-1" id="2.2.8.3.">(2.2.8.3.) c. Mistakes in discovery usually come to light later in the case and comes with a price which may include sanctions. So take the time to do it right.</div>
+        <div class="content-section indent-1" id="2.2.8.4.">(2.2.8.4.) d. Crystalize things for clients so they are not having to sift through long RTP and Rogs.</div>
+        <div class="content-section indent-1" id="2.2.8.5.">(2.2.8.5.) e. No stone should be unturned.</div>
+
+        <div class="content-section" id="2.2.9.">
+            (2.2.9.) 14. Experts – We seem to be having the same issue over and over in some cases with not retaining experts early in cases where experts are needed and then we find ourselves scrambling to meet expert witness disclosure deadlines. This is a very bad position to be in.
+        </div>
+        <div class="content-section indent-1" id="2.2.9.1.">(2.2.9.1.) a. The Primary attorney is responsible for speaking with me in the first 30 days of getting the case to discuss whether we should ask the client to obtain experts at an early date or not. I think we usually should.</div>
+        <div class="content-section indent-1" id="2.2.9.2.">(2.2.9.2.) b. We are a litigation firm who needs experts for every case that is not going to settle right away. We have some very good “go to” experts but we need to really expand our group of go to experts especially in the fields we know we are going to get over and over.</div>
+        <div class="content-section indent-2" id="2.2.9.2.1.">(2.2.9.2.1.) i. Identifying experts is somewhat of an art that we need to be really good at.</div>
+        <div class="content-section indent-2" id="2.2.9.2.1.1.">(2.2.9.2.1.1.) 1. Experts can come from recommendations of other colleagues 2. Our firm expert witness database 3. Jury verdict reports; 4. Medical literature; 5. DRI or Primerus email inquiries;</div>
+        <div class="content-section indent-2" id="2.2.9.2.2.">(2.2.9.2.2.) ii. Key factors for retaining an expert:</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.1.">(2.2.9.2.2.1.) 1. I place the most weight on the recommendations of another defense lawyer who highly recommends an expert for deposition and trial. So try to obtain recommendations from a defense lawyer before retaining an expert we have never used before.</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.2.">(2.2.9.2.2.2.) 2. The expert’s credentials are important no doubt;</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.2.1.">(2.2.9.2.2.2.1.) a. Do we need a national expert on a unique issue?</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.2.2.">(2.2.9.2.2.2.2.) b. Do we need the expert that “wrote the book” on the issue?</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.2.3.">(2.2.9.2.2.2.3.) c. Do we need a local expert?</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.3.">(2.2.9.2.2.3.) 3. When setting up the initial meeting try to set it up by zoom so we can see how the expert is and responds to questions.</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.3.1.">(2.2.9.2.2.3.1.) a. An expert can have the best credentials in the world but if they are not going to be liked or believed by the jury then they will not help our case.</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.4.">(2.2.9.2.2.4.) 4. See how available and approachable the expert is. Will they exchange cell phone numbers or do they have some sort of a rigorous procedure to get to them;</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.5.">(2.2.9.2.2.5.) 5. Sometimes we should run an Idex search if we don’t have much info on the recommended expert.</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.6.">(2.2.9.2.2.6.) 6. Then consider fees.</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.7.">(2.2.9.2.2.7.) 7. We should know enough about the medicine before we meet with the expert so that we can ask insightful questions.</div>
+        <div class="content-section indent-3" id="2.2.9.2.2.8.">(2.2.9.2.2.8.) 8. Always ask the expert about whether there is any medical literature that we should use in the case. If they can tell you what it is without them looking it up and sending that is preferable. But if they have to send it to us that is ok, just understand that the Plaintiff’s lawyer will get the emails exchanged between us and our testifying expert. So, if there is something negative in the article it will be used against our expert on cross exam.</div>
+        <div class="content-section indent-2" id="2.2.9.2.3.">(2.2.9.2.3.) iii. Experts concerning spine, and TBI – We need to especially expand our “go to” group here. Our Primary lawyers need to investigate, locate and add to our normal go to docs list in these recurring areas (neurosurgery, ortho of the spine, neurology, radiology) beyond Dr. Lawson, Dr. Gabrial, Dr. Rogo, Dr. Silliman, Dr. Carter and Dr. Wadgoankar.</div>
+        <div class="content-section indent-2" id="2.2.9.2.4.">(2.2.9.2.4.) iv. CME- we cannot wait to set up CMEs. If the case is not going to settle within the first 30 days then we need to discuss with our claims manager to retain an expert that can perform a CME. Doctors are booked out very far for CME and if we wait we may not be able to accomplish the CME timely.</div>
+        <div class="content-section indent-2" id="2.2.9.2.5.">(2.2.9.2.5.) v. Reports of our experts opinions – After speaking and obtaining our expert’s initial opinions we need to provide our client a letter summary of said opinions within 10 days. Most of the time these summaries will be drafted by the Primary attorney.</div>
+        <div class="content-section indent-2" id="2.2.9.2.6.">(2.2.9.2.6.) vi. Paralegal and experts – After providing an expert with records initially, the paralegal shall continue to update the expert as new records are received by our firm. Upon receipt of a new record, the paralegal shall discuss with the Primary attorney whether to send the newly received record to the expert. If there are any questions this should be brought to my attention. This is a much more manageable way for our experts to receive records.</div>
+        <div class="content-section indent-2" id="2.2.9.2.7.">(2.2.9.2.7.) vii. Deposition of Plaintiff’s Experts – As soon as the Plaintiff discloses experts we must obtain dates for deposition if not provided. We need to be proactive in setting expert depo. Legal assistants should request dates.</div>
+
+        <div class="content-section" id="2.2.10.">
+            (2.2.10.) 15. Depositions generally – Depositions are a key aspect of our cases. Upon receipt of the case we need to assess the case with a mind towards who we should depose in the case as part of our overall strategy to defend the case.
+        </div>
+        <div class="content-section indent-1" id="2.2.10.1.">(2.2.10.1.) a. We should consider whether in addition to the Plaintiff, what other witnesses need to be deposed:</div>
+        <div class="content-section indent-2" id="2.2.10.1.1.">(2.2.10.1.1.) i. Plaintiff’s family members?;</div>
+        <div class="content-section indent-2" id="2.2.10.1.2.">(2.2.10.1.2.) ii. Plaintiff’s employers?</div>
+        <div class="content-section indent-2" id="2.2.10.1.3.">(2.2.10.1.3.) iii. Non-party treaters?</div>
+        <div class="content-section indent-2" id="2.2.10.1.4.">(2.2.10.1.4.) iv. Medical examiner?</div>
+        <div class="content-section indent-1" id="2.2.10.2.">(2.2.10.2.) b. Experts;</div>
+        <div class="content-section indent-2" id="2.2.10.2.1.">(2.2.10.2.1.) i. Taking depositions of experts is a big lift. Prior to taking the depositions of Plaintiff’s experts:</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.1.">(2.2.10.2.1.1.) 1. Paralegals need to send expert witness discovery to the Plaintiff on the day they disclose experts;</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.2.">(2.2.10.2.1.2.) 2. Paralegals need to run an Idex search so as to perform a background search of the expert. The paralegal and the primary attorney need to discuss at the time Plaintiff discloses experts whether to move forward with an Idex search. Things to consider:</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.2.1.">(2.2.10.2.1.2.1.) a. Do we know so much about the expert already that we don’t really need an IDEX search?</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.2.2.">(2.2.10.2.1.2.2.) b. Is there a high probability that the case will settle in short order and thus we should hold off on taking them?</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.3.">(2.2.10.2.1.3.) 3. Do we have inhouse transcripts for the expert from prior cases.</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.4.">(2.2.10.2.1.4.) 4. Upon receipt of the IDEX background information, the paralegal should identify whether there are prior depositions with similar facts such that we may want to obtain a copy of the deposition. The Primary attorney should review the Idex search results along with the paralegal to determine what transcripts or reports we should order.</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.5.">(2.2.10.2.1.5.) 5. Treating experts subpoenas– Upon disclosure of experts we should evaluate whether we need to send the expert an update subpoena for records.</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.5.1.">(2.2.10.2.1.5.1.) a. Exposing the treating doctor Plaintiff’s lawyer sham – I attended a Primerus seminar along with Blake and Joe this past year where an attorney from Atlanta explained how they are exposing the treating doctors for what they are: Plaintiff’s doctors. This Atlanta lawyer explained how when they would take the depo of the doctor, the doctor always would say they don’t know anything about the billing aspects of their practice. They also always testify that they don’t know how the patient came to them? Who they were referred by? How much of their practice comes from injury cases? How many cases come from Plaintiff’s verses Defendants? This lawyer explained how they are employing a number of strategies for getting to the truth like sending subpoenas to the treating doctor asking for this sort of information. Like, setting the business manager for the practice for deposition; asking for their billing electronic files where there are actually emails between the doctor and the Plaintiff’s lawyer discussing case strategies. We need to determine how we can employ these methods.</div>
+        <div class="content-section indent-3" id="2.2.10.2.1.5.2.">(2.2.10.2.1.5.2.) b. Research – The Primary lawyer is responsible to look for possible medical literature that will help us while questioning the expert in depo.</div>
+        <div class="content-section indent-2" id="2.2.10.2.2.">(2.2.10.2.2.) c. Preparing to take the deposition of the expert. This is a key aspect of the case. Looking at an outline and going in to take a deposition is not the best practice for preparing for a deposition. Prior to the depo, we should:</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.">(2.2.10.2.2.1.) i. Have a great understanding of the facts of the case before taking a deposition. As such, our cumulative reports need to properly inform the reader:</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.1.">(2.2.10.2.2.1.1.) 1. About what our defense strategies are in the case generally and what can we ask during the depositions that will help further develop these strategies or identify potential weaknesses in the strategies.</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.2.">(2.2.10.2.2.1.2.) 2. The Plaintiff’s answers to rogs and rtps and documents produced need to be analyzed and outlined to identify salient information and then said key information needs to be added to outline of questions for the expert. Anyone should be able to pick up the outline and know what to ask about.</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.3.">(2.2.10.2.2.1.3.) 3. Chronologies need to be up to date;</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.4.">(2.2.10.2.2.1.4.) 4. Letters summarizing records need to be up to date;</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.5.">(2.2.10.2.2.1.5.) 5. We need to speak with our own experts in advance of the deposition to assist us in how to approach the Plaintiff’s expert.</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.6.">(2.2.10.2.2.1.6.) 6. We need to have expert discovery responses.</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.7.">(2.2.10.2.2.1.7.) 7. If the issue warrants it, we should have literature to help us impeach the witness.</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.8.">(2.2.10.2.2.1.8.) 8. If the expert is not known to us, we should identify prior depositions given by this expert (via IDEX or otherwise) to determine how the expert answers questions in related cases. This prior testimony should be summarized in such a way that it can be used to question the Plaintiff’s expert in deposition and or at trial.</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.9.">(2.2.10.2.2.1.9.) 9. The primary attorney should create an outline for how to question the expert that synthesizes the above items in how to approach the expert based on the defense strategies in the case: this is the strategy outline.</div>
+        <div class="content-section indent-3" id="2.2.10.2.2.1.9.1.">(2.2.10.2.2.1.9.1.) a. The strategy outline needs to be provided to me 5 days before the deposition</div>
+        <div class="content-section indent-2" id="2.2.10.2.3.">(2.2.10.2.3.) d. Prepare for depositions of the Plaintiff or lay witnesses:</div>
+        <div class="content-section indent-3" id="2.2.10.2.3.1.">(2.2.10.2.3.1.) i. All of the above except for, research articles, prior depositions.</div>
+        <div class="content-section indent-2" id="2.2.10.2.4.">(2.2.10.2.4.) e. Taking the deposition of an expert or any witnesses – goals:</div>
+        <div class="content-section indent-3" id="2.2.10.2.4.1.">(2.2.10.2.4.1.) i. Yes, we should look to find out what they have to say about a subject matter.</div>
+        <div class="content-section indent-3" id="2.2.10.2.4.2.">(2.2.10.2.4.2.) ii. But I especially am looking for any concessions that an expert may give me. Those will be my cross at trial.</div>
+        <div class="content-section indent-3" id="2.2.10.2.4.3.">(2.2.10.2.4.3.) iii. I am also hunting for anything positive they say towards our case no matter how small the comment may be.</div>
+        <div class="content-section indent-2" id="2.2.10.2.5.">(2.2.10.2.5.) f. Expert bill – The legal assistant is responsible for having a way to track that our own experts have been paid. We need to make sure that our experts are paid timely otherwise they will refuse to take on our cases and will likewise be mush less reluctant to help us as we need.</div>
+        <div class="content-section indent-2" id="2.2.10.2.6.">(2.2.10.2.6.) g. Expert Data Bank – Saalfield Shad has an expert data bank. It is up to the legal assistant to make sure to add pertinent information into the bank.</div>
+        <div class="content-section indent-2" id="2.2.10.2.7.">(2.2.10.2.7.) h. Reporting on depositions and witness interviews – Part 2 – It is very important to follow the client guidelines for the formatting to use for deposition summaries. For example, MedMal Direct and AdventHealth have a very specific format that must be used. If the client does not have a specific format then a general format is as follows:</div>
+        <div class="content-section indent-3" id="2.2.10.2.7.1.">(2.2.10.2.7.1.) i. Appearance, demeanor and background of witness:</div>
+        <div class="content-section indent-3" id="2.2.10.2.7.1.1.">(2.2.10.2.7.1.1.) 1. This can be broken down into three separate sections or just one but these are very important because this is what tells the claims adjuster what kind of witness this person is and how will they come across to a jury.</div>
+        <div class="content-section indent-3" id="2.2.10.2.7.2.">(2.2.10.2.7.2.) ii. Substantive testimony concerning relevant issues in the case:</div>
+        <div class="content-section indent-3" id="2.2.10.2.7.2.1.">(2.2.10.2.7.2.1.) 1. This can be broken down in many ways but I think it is more digestible if it is written by issues. For example, if the witness is an eyewitness, then have a section called something like: Mr. Jones’ as Eyewitness. If it is an expert with 10 opinions, then list each opinion and analyze the opinions.</div>
+        <div class="content-section indent-3" id="2.2.10.2.7.2.2.">(2.2.10.2.7.2.2.) 2. The key is to not just regurgitate what the witness said but rather state what the witness said and most importantly how said testimony impacts the case. Perhaps their opinion is weak then say why etc.</div>
+
+        <div class="content-section" id="2.2.11.">
+            (2.2.11.) 16. Pre-Lit Investigations cases:
+        </div>
+        <div class="content-section indent-1" id="2.2.11.1.">(2.2.11.1.) a. Spoliation letters – We need to obtain any spoliations letters that OC gave to our client and write a responsive letter as soon as possible that objects to unreasonable requests. We need to send our own spoliation letter to the client.</div>
+        <div class="content-section indent-1" id="2.2.11.2.">(2.2.11.2.) b. We need to send spoliation letters to Plaintiff and obtain the black box and dash cam video information from Plaintiff right away within 10 days of assignment of case.</div>
+        <div class="content-section indent-1" id="2.2.11.3.">(2.2.11.3.) c. Demand for authorizations – In these trucking cases especially, the Plaintiff’s lawyers are all about trying to set everyone up for bad faith. One of the areas we are always hamstrung with analyzing is Plaintiff’s complete records post accident and records that predate the accident. In cases we get involved early, we need to triage whether to ask OC for the name of providers that predate and post date the accident. In trucking and GL cases, the history of the patient medical conditions prior to the accident is vitally important. Did the Plaintiff have prior complaint of neck and back pain? Did they have a prior MRI. We need to communicate with our client upon assignment of a case whether they are ok if we request this information from Plaintiff’s counsel. If our client says no then we did our part to try to obtain prior to any demand issued by OC.</div>
+
+        <div class="content-section" id="2.2.12.">
+            (2.2.12.) 17. Trucking cases specific issues:
+        </div>
+        <div class="content-section indent-1" id="2.2.12.1.">(2.2.12.1.) a. When a case is assigned to us, we need to figure out right away whether the information data from the truck and other vehicles involved were obtained prior to our involvement. If not, we need to get approval from the adjuster to seek this information and get it right away before it disappears. If not someone down the line is going to be asking why don’t we have this information:</div>
+        <div class="content-section indent-1" id="2.2.12.2.">(2.2.12.2.) b. This includes the black box in the vehicles itself;</div>
+        <div class="content-section indent-1" id="2.2.12.3.">(2.2.12.3.) c. Dash cam videos and information that may be included in the dash cam videos;</div>
+        <div class="content-section indent-1" id="2.2.12.4.">(2.2.12.4.) d. The information included in apps that drivers use for their deliveries etc.</div>
+        <div class="content-section indent-1" id="2.2.12.5.">(2.2.12.5.) e. We need to seek to obtain relevant information from our truck drivers and truck companies.</div>
+        <div class="content-section indent-1" id="2.2.12.6.">(2.2.12.6.) f. We need to get a good thorough driving record of our own driver right away;</div>
+        <div class="content-section indent-1" id="2.2.12.7.">(2.2.12.7.) g. We need to learn how to obtain from public records germane to our driver;</div>
+        <div class="content-section indent-1" id="2.2.12.8.">(2.2.12.8.) h. In Tavares, Plaintiff’s counsel was able to obtain the test scores and amount of times our driver took the CDR tests.</div>
+        <div class="content-section indent-1" id="2.2.12.9.">(2.2.12.9.) i. We need to consider getting experts early.</div>
+        <div class="content-section indent-1" id="2.2.12.10.">(2.2.12.10.) j. Regarding the driver and trucking company representative, I will ask the adjuster upon assignment to send an introductory email explaining who we are. I will follow up with trying to set up a time to speak with them. If I am in trial or if the Primary attorney sees I have not sent such an email then the Primary attorney to the file needs to speak with me about this.</div>
+
+        <div class="content-section" id="2.2.13.">
+            (2.2.13.) 18. Assisted Living and Skilled Nursing cases
+        </div>
+        <div class="content-section indent-1" id="2.2.13.1.">(2.2.13.1.) a. Obtaining Plaintiff’s records from our own client – this has been an issue like I have never seen before. We ask for records via emails, speak with the provider contact and yet we don’t obtain the records in a timely manner. In some cases presuit ends and we still don’t have the records. We need to figure out ways to change this. If we don’t obtain the full records for the Plaintiff in 5 days, then the primary lawyer must get involved in the case to come up with a strategy for obtaining the records within 10 days. If we don’t have the complete records of the patient within 10 days of obtaining the case assignment please let me know and what efforts have been taken to obtain it.</div>
+        <div class="content-section indent-1" id="2.2.13.2.">(2.2.13.2.) b. Administrative file – Likewise we are having trouble getting the administrative file which would include the admission agreement and possible arbitration agreement. Same applies to this with regards to timing.</div>
+        <div class="content-section indent-1" id="2.2.13.3.">(2.2.13.3.) c. Other relevant records – We are having problems of course in obtaining other records that are relevant to the case like, incident reports, staffing sheets for the days in question, personnel files etc. If the paralegal does not receive these and other key records within 14 days of assignment then the primary lawyer assigned to the case needs to get involved in putting together a solution. If by day 20 we still don’t have them please let me know.</div>
+        <div class="content-section indent-1" id="2.2.13.4.">(2.2.13.4.) d. Unsworn statement – Set the USS of the PR or Plaintiff in presuit unless you think there is something about a particular case that does not warrant it.</div>
+        <div class="content-section indent-1" id="2.2.13.5.">(2.2.13.5.) e. Key caregivers – we need to identify and meet with the key providers in the case within the first 30 to 60 days of receiving the case. After these meeting we need to send the client a summary of this meeting within 10 days.</div>
+
+        <div class="content-section" id="2.2.14.">
+            (2.2.14.) 19. General Liability cases
+        </div>
+        <div class="content-section indent-1" id="2.2.14.1.">(2.2.14.1.) a. We need to meet with our clients and key client witnesses within 30 days.</div>
+
+        <div class="content-section" id="2.2.15.">
+            (2.2.15.) 20. Medical Malpractice cases
+        </div>
+        <div class="content-section indent-1" id="2.2.15.1.">(2.2.15.1.) a. We need to start on working on getting experts right away.</div>
+        <div class="content-section indent-1" id="2.2.15.2.">(2.2.15.2.) b. Our goal should be to have the case evaluated on day 75 of presuit if not sooner so as to give us two weeks before the end of presuit. On this day we need to provide the client with a report explaining our evaluation of the case.</div>
+
+        <div class="content-section critical-text" id="2.2.16.">
+            (2.2.16.) 21. Pleadings – Filed pleadings need to be moved into Filevine within 24 hours;
+        </div>
+        <div class="content-section critical-text" id="2.2.17.">
+            (2.2.17.) 22. Memos regarding calls or meetings – if a Primary attorney or paralegal has a substantive meeting between themselves, a client, opposing counsel etc. A dictated or typed memo of same must be generated within 24 hours. This does not have to be grammatically correct, but it must be understandable to anyone who reads it. I recommend dictation as the fastest way to memorialize this information.
+        </div>
+
+        <div class="content-section" id="2.2.18.">
+            (2.2.18.) 23. Billing considerations:
+        </div>
+        <div class="content-section indent-1" id="2.2.18.1.">(2.2.18.1.) a. Write down your time daily and make sure you are caught up weekly;</div>
+        <div class="content-section indent-1" id="2.2.18.2.">(2.2.18.2.) b. Bill for the actual time spent on something accurately. Do so even if you think you billed too much time. Just write the amount of time you actually worked and when I look at the bill I will cut the time then if I think needed.</div>
+        <div class="content-section indent-1" id="2.2.18.3.">(2.2.18.3.) c. Be efficient with your work.</div>
+        <div class="content-section indent-1" id="2.2.18.4.">(2.2.18.4.) d. Spell correctly when writing your time in Tabs. I have to edit all prebills and it takes a long time. If I have to edit the prebill for grammar and spelling it takes twice as long.</div>
+        <div class="content-section indent-1" id="2.2.18.5.">(2.2.18.5.) e. Write in complete but to the point sentences.</div>
+        <div class="content-section indent-1" id="2.2.18.6.">(2.2.18.6.) f. Capitalize things that are that are supposed to be capitalized, like names etc.</div>
+        <div class="content-section indent-1" id="2.2.18.7.">(2.2.18.7.) g. Note in every entry</div>
+        <div class="content-section indent-2" id="2.2.18.7.1.">(2.2.18.7.1.) i. What you did;</div>
+        <div class="content-section indent-2" id="2.2.18.7.2.">(2.2.18.7.2.) ii. Why you did it</div>
+        <div class="content-section indent-2" id="2.2.18.7.3.">(2.2.18.7.3.) iii. And document if something took a long time the number of pages a document</div>
+        <div class="content-section indent-1" id="2.2.18.8.">(2.2.18.8.) h. Document your time daily</div>
+
+        <div class="content-section" id="2.2.19.">
+            (2.2.19.) 24. Review the billing guidelines for the client and understand what is billable and what is not. Each lawyer and paralegal is expected to know the billing guidelines for each client your work on by memory.
+        </div>
+        <div class="content-section indent-1" id="2.2.19.1.">(2.2.19.1.) a. MedMal direct has a typical definition for what is clerical:</div>
+        <div class="content-section indent-2" id="2.2.19.1.1.">(2.2.19.1.1.) i. 9. Clerical work of any type including, without limitation, preparation of cover/enclosure letters/emails, certificates of service, uploading or downloading documents, distribution of mail, copying, faxing, scanning, indexing, bates numbering, preparation of binders/notebooks for any purpose, retrieving/compiling file documents, communication with vendors other than experts, and the like;</div>
+
+        <div class="content-section" id="2.2.20.">
+            (2.2.20.) 25. Meeting billing goals set by the firm – please be mindful of meeting the firm’s billing goals and getting time posted on a timely basis.
+        </div>
+        <div class="content-section" id="2.2.21.">
+            (2.2.21.) 26. The O & I List – As I have always said, the O & I list is how we prepare our exhibit list for trial as we go. It is very important that paralegals properly maintain this as we go. The Primary lawyer on the case needs to review the O & I list every month to make sure it is moving along in a way consistent with what ultimately will become a trial exhibit list.
+        </div>
+        <div class="content-section" id="2.2.22.">
+            (2.2.22.) 27. Witness List - I would like the paralegals to prepare a witness list as the case develops so that by the time when we get to the deadline for producing a witness list pursuant to the court order, the list is already prepared. The paralegal needs to prepare a witness list and add it to the file within 60 days of assignment of the case. The Primary lawyer needs to review this list every 30 days thereafter.
+        </div>
+        <div class="content-section" id="2.2.23.">
+            (2.2.23.) 28. Request for Copies – When the Plaintiff or another party files a Request for Copies, the paralegal shall respond to that within 30 days or before. If we are still waiting on certain records we should respond by stating none have been received to date. The paralegal then will update the responses to Request for Copies every 30 days thereafter.
+        </div>
+
+        <div class="content-section" id="2.2.24.">
+            (2.2.24.) 29. Preparation for trial duties upon issuance of a trial order from the court–
+        </div>
+        <div class="content-section indent-1" id="2.2.24.1.">(2.2.24.1.) a. Notebooks- Once the case is set for trial, the paralegal must start creating notebooks for use at trial and updating same on a monthly basis</div>
+        <div class="content-section indent-2" id="2.2.24.1.1.">(2.2.24.1.1.) i. Discovery pleading notebook (paralegal);</div>
+        <div class="content-section indent-2" id="2.2.24.1.2.">(2.2.24.1.2.) ii. Pleadings pleading notebook (legal assistant);</div>
+        <div class="content-section indent-2" id="2.2.24.1.3.">(2.2.24.1.3.) iii. Trial notebook – this will include:</div>
+        <div class="content-section indent-3" id="2.2.24.1.3.1.">(2.2.24.1.3.1.) 1. The Trial To Do List</div>
+        <div class="content-section indent-3" id="2.2.24.1.3.2.">(2.2.24.1.3.2.) 2. Operative complaint</div>
+        <div class="content-section indent-3" id="2.2.24.1.3.3.">(2.2.24.1.3.3.) 3. Answer.</div>
+
+        <div class="content-section" id="2.2.25.">
+            (2.2.25.) 30. Larissa Rosa – Larissa works part time. Going forward, Larissa will continue to do what she has been doing except that now she will be working exclusively on the trial cases so as to assist the paralegal on the case.
+        </div>
+        <div class="content-section" id="2.2.26.">
+            (2.2.26.) 31. Schedules and priorities – In this type of law we need to be looking 6 months to a year ahead all of the time. If we are showing up to work on Monday and don’t have a good game plan for the next two weeks and what is a priority then we are going to get in trouble. Things come up and things change but setting priorities is key. This goes for the paralegals and assistants as well. It is very important that you be looking 6 months out as well. If we don’t have records or things we need it is very important that you keep the Primary lawyer in the know. It is a two-way street there: the lawyer needs to know what they need to and should be asking for things not in the file. But it is very important to be very proactive and act without needing direction.
+        </div>
+        <div class="content-section indent-1" id="2.2.26.1.">(2.2.26.1.) a. Calendaring - Obviously putting things on the calendar as per guidelines is critical. The legal assistants must be extremely diligent about putting things on the calendar.</div>
+        <div class="content-section indent-1" id="2.2.26.2.">(2.2.26.2.) b. Calendaring as a team event – While the legal assistants place things on the calendar, all of us must work together to make sure something is not missed. Paralegals need to make sure that discovery related deadlines have been calendared. The Primary attorney must also be looking into the future to make sure things have been calendared.</div>
+        <div class="content-section indent-1" id="2.2.26.3.">(2.2.26.3.) c. Verbal reminders – I always greatly appreciate when team members verbally remind me about something due in the days or in the week at hand.</div>
+        <div class="content-section indent-1" id="2.2.26.4.">(2.2.26.4.) d. Calendar reminders – I know some lawyers like to have reminders in the days and weeks before something is due. So to accomplish this, please calendar these reminders in green the actual due date and in violet.</div>
+
+        <div class="content-section" id="2.2.27.">
+            (2.2.27.) 32. Filevine – I am not going to tackle Filevine here except for the following:
+        </div>
+        <div class="content-section indent-1" id="2.2.27.1.">(2.2.27.1.) a. PDF and Emails must be clearly named in Filevine with no abbreviations.</div>
+        <div class="content-section indent-1" id="2.2.27.2.">(2.2.27.2.) b. Paralegal is responsible for filing in Filevine any discovery related matters and legal assistants file everything else.</div>
+
+        <div class="content-section" id="2.2.28.">
+            (2.2.28.) 33. Remote working
+        </div>
+        <div class="content-section indent-1" id="2.2.28.1.">(2.2.28.1.) a. Staff working from home must be able to be easily reached throughout the day.</div>
+        <div class="content-section indent-1" id="2.2.28.2.">(2.2.28.2.) b. Remote worker should email the team when they are going to lunch or not be available during business hours. In-office staff should not attempt to call a remote worker when the remote worker notifies team they are at lunch or otherwise not going to be available for any stretch of the day.</div>
+
+        <div class="content-section" id="2.2.29.">
+            (2.2.29.) 34. Weeks before trial and trial
+        </div>
+        <div class="content-section indent-1" id="2.2.29.1.">(2.2.29.1.) a. The staff working on a case for trial should be prepared to work whatever hours are needed in the two weeks before trial and during the trial.</div>
+
+        <div class="content-section" id="2.2.30.">
+            (2.2.30.) 35. Naming Emails -
+        </div>
+        <div class="content-section indent-1" id="2.2.30.1.">(2.2.30.1.) a. Please make sure of the following when sending emails :</div>
+        <div class="content-section indent-2" id="2.2.30.1.1.">(2.2.30.1.1.) i. Subject line of the email – always start with the first and last name of the Plaintiff followed by v. and our client name.</div>
+        <div class="content-section indent-2" id="2.2.30.1.2.">(2.2.30.1.2.) ii. If it is an email to a client – put in their case number</div>
+        <div class="content-section indent-2" id="2.2.30.1.3.">(2.2.30.1.3.) iii. Following that then put in the subject of the email. For example:</div>
+        <div class="content-section indent-3" id="2.2.30.1.3.1.">(2.2.30.1.3.1.) 1. Scheduling of Dr. Lopez depo</div>
+        <div class="content-section indent-3" id="2.2.30.1.3.2.">(2.2.30.1.3.2.) 2. Plaintiff’s first RTP</div>
+        <div class="content-section indent-3" id="2.2.30.1.3.3.">(2.2.30.1.3.3.) 3. Non – Party Record</div>
+        <div class="content-section indent-3" id="2.2.30.1.3.3.1.">(2.2.30.1.3.3.1.) a. Inclanmail – always cc</div>
+        <div class="content-section indent-3" id="2.2.30.1.3.3.2.">(2.2.30.1.3.3.2.) b. Always cc the entire team working on that file.</div>
+
+        <div class="content-section" id="2.2.31.">
+            (2.2.31.) 36. Unified system for file maintenance – Case files must be maintained in an identical fashion so that when one team member goes into another person’s file they know exactly where to look. There can be no deviation where one person does it one way and another does it another way. In the next 30 days we need to examine our systems and make sure they are applied in all cases.
+        </div>
+        <div class="content-section" id="2.2.32.">
+            (2.2.32.) 37. Vacation – Please make sure you have your main responsibilities in your cases up to date.
+        </div>
+        <div class="content-section" id="2.2.33.">
+            (2.2.33.) 38. Closing out files – Once a settlement occurs, it is the responsibility of the Primary attorney and paralegal to insure that the case is properly closed:
+        </div>
+        <div class="content-section indent-1" id="2.2.33.1.">(2.2.33.1.) a. Primary attorney will draft Release for CJI to review</div>
+        <div class="content-section indent-1" id="2.2.33.2.">(2.2.33.2.) b. Primary attorney will send Release to client for approval and then to OC;</div>
+        <div class="content-section indent-1" id="2.2.33.3.">(2.2.33.3.) c. Primary attorney will obtain the current information needed like:</div>
+        <div class="content-section indent-2" id="2.2.33.3.1.">(2.2.33.3.1.) i. W-9 from OC</div>
+        <div class="content-section indent-2" id="2.2.33.3.2.">(2.2.33.3.2.) ii. The manner in which the check is to be made out to OC;</div>
+        <div class="content-section indent-2" id="2.2.33.3.3.">(2.2.33.3.3.) iii. Making sure the client sends us the settlement check and that we send settlement check to OC with proper cover letter.</div>
+        <div class="content-section indent-2" id="2.2.33.3.4.">(2.2.33.3.4.) iv. Whatever a particular client demands as part of the settlement pursuant to client guidelines.</div>
+        <div class="content-section indent-2" id="2.2.33.3.5.">(2.2.33.3.5.) v. Follow up with OC that they enter dismissal of the case once we have provided the settlement check.</div>
+        <div class="content-section indent-2" id="2.2.33.3.6.">(2.2.33.3.6.) vi. Paralegal and Primary attorney will outline documents that will not be purged and which one to maintain for storage and provide same to the legal assistant for processing.</div>
+
+        <div class="content-section" id="2.2.34.">
+            (2.2.34.) 39. Urgent communication between team members:
+        </div>
+        <div class="content-section indent-1" id="2.2.34.1.">(2.2.34.1.) a. If there is something time sensitive call, text – don’t just email the team</div>
+        
+        <div class="content-section" id="2.2.35.">
+            (2.2.35.) 40. Ultimate goal is excellence – we need to be excellent in all we do.
+        </div>
+
+        <p>I hope the above expectation guide is helpful. I am very grateful for each of you on this team. Please let me know if you have any questions, additions or concerns. I understand this Expectation Guide is lengthy; however, I wanted to clearly share same here in the beginning of January as we have a super busy year coming up and I am not always as available as I would like to be to discuss expectations. Please review these guidelines and keep them handy through the year so we can achieve great work together.</p>
+        <p>Lastly, please email me by Tuesday that you have reviewed same in its entirety.</p>
+        <p>Many thanks.<br>
+        Clemente<br>
+        Clemente J. Inclan<br>
+        Saalfield Shad, P.A.<br>
+        245 Riverside Avenue, Suite 400<br>
+        Jacksonville, Florida 32202<br>
+        P: (904) 355-4401<br>
+        F: (904) 355-3503<br>
+        E: cinclan@saalfieldlaw.com</p>
+        <div class="email-header">THIS E-MAIL MESSAGE IS FROM A LAW FIRM AND IS INTENDED SOLELY FOR THE USE OF THE INDIVIDUAL(S) OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED, CONFIDENTIAL AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW... [Disclaimer truncated for layout but data present]</div>
+    </div>
+
+</body>
+</html>
